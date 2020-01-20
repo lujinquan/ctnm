@@ -2,6 +2,7 @@
 namespace app\index\controller;
 
 use think\facade\Request;
+use think\facade\Lang;
 use app\index\controller\Base;
 use think\facade\Config;
 use app\common\model\BuildUrl;
