@@ -58,7 +58,7 @@ class Index extends Base
         $document = $docObj->getDetail($id);
         if (!isset($document)) {
               $this->error(404);
-        } else if($document->role_id !== 0) {
+        } else if($document->role_id != 0) {
               $role_ids = [];
               if (!empty($this->role)) {
                   $role_ids =  array_column($this->role, 'role_id');
