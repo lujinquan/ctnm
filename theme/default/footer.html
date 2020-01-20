@@ -133,11 +133,14 @@
         <div class="container clearfix"> 
          <div class=" nav"> 
           <ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp"> 
-           <li class="dropdown"> <a class="navNameLink" href="index.html">首页</a> </li> 
+            {volist name="$topMenus" id="vo"} 
+                <li class="dropdown {if condition="$vo['keywords'] == $thisMenu"}active{/if}"> <a class="navNameLink" href="/{$vo['keywords']}">{$vo['title']}</a> </li> 
+            {/volist}
+          <!--  <li class="dropdown"> <a class="navNameLink" href="index.html">首页</a> </li> 
            <li class="dropdown"> <a class="navNameLink" href="{:url('index/index/solution')}">解决方案</a> </li> 
            <li class="dropdown"> <a class="navNameLink" href="News.html">新闻资讯</a> </li> 
            <li class="dropdown"> <a class="navNameLink" href="about.html">关于我们</a> </li> 
-           <li class="dropdown"> <a class="navNameLink" href="Contact.html">联系我们</a> </li> 
+           <li class="dropdown"> <a class="navNameLink" href="Contact.html">联系我们</a> </li>  -->
           </ul> 
          </div> 
          <a href="javascript:void(0)" id="navToggle"> <span></span> </a> 
@@ -149,11 +152,14 @@
          <i class="iconfont closed"></i> 
         </div> 
         <ul class="ul" data-in="fadeInDown" data-out="fadeOutUp"> 
-         <li class="dropdown"> <a class="navNameLink" href="index.htm">首页</a> </li> 
+          {volist name="$topMenus" id="vo"} 
+                <li class="dropdown {if condition="$vo['keywords'] == $thisMenu"}active{/if}"> <a class="navNameLink" href="/{$vo['keywords']}">{$vo['title']}</a> </li> 
+            {/volist}
+         <!-- <li class="dropdown"> <a class="navNameLink" href="index.htm">首页</a> </li> 
          <li class="dropdown"> <a class="navNameLink" href="Solution.html">解决方案</a> </li> 
          <li class="dropdown"> <a class="navNameLink" href="News.html">新闻资讯</a> </li> 
          <li class="dropdown"> <a class="navNameLink" href="about.html">关于我们</a> </li> 
-         <li class="dropdown"> <a class="navNameLink" href="Contact.html">联系我们</a> </li> 
+         <li class="dropdown"> <a class="navNameLink" href="Contact.html">联系我们</a> </li>  -->
         </ul> 
        </div> 
        </div>  
