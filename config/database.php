@@ -12,16 +12,26 @@
 return [
     // 数据库类型
     'type'            => 'mysql',
-    // 服务器地址
-    'hostname'        => '127.0.0.1',
+    // // 服务器地址
+    // 'hostname'        => '127.0.0.1',
+    // // 数据库名
+    // 'database'        => 'kitecms',
+    // // 用户名
+    // 'username'        => 'root',
+    // // 密码
+    // 'password'        => 'ctnm',
+    // // 端口
+    // 'hostport'        => '3306',
+    //公房测试服务器地址
+    'hostname' => 'sh-cdb-r8lcilx2.sql.tencentcdb.com',
     // 数据库名
-    'database'        => 'kitecms',
+    'database' => 'ctnm',
     // 用户名
-    'username'        => 'root',
+    'username' => 'root',
     // 密码
-    'password'        => 'ctnm',
+    'password' => 'Wfw@ctnmit0405',
     // 端口
-    'hostport'        => '3306',
+    'hostport' => '63889',
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数
