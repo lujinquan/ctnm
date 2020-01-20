@@ -1,0 +1,41 @@
+    {extend name="default:base" /}
+    {block name="content"}
+    <link href="/public/static/theme-default/css/page_impt_News.css" rel="stylesheet" type="text/css" />
+	  <div id="w_grid-1560159424052" class="w_grid-000" data-tmpleditable="editable">
+        <div class="w_grid signal">
+          <div class="e_box e_box-000 p_gridbox">
+            <div id="content_box-1560159424052-0" class="e_box e_box-000 d_gridCell_0 p_gridCell ND_empty" data-editablecontent="1560159424052">
+              <div id="w_grid-1560175942102" class="w_grid-000">
+                <div class="w_grid signal">
+                  <div class="e_box e_box-000 p_gridbox">
+                    <div id="content_box-1560175942102-0" class="e_box e_box-000 d_gridCell_0 p_gridCell"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w_grid-1563456573903" class="w_grid-000">
+				<div class="j-details-box">
+					<div class="j-title clearfix">
+						{$docinfo.title}
+					</div>
+					<div class="j-time clearfix">
+						发布时间：{$docinfo.create_at} | 作者：{$docinfo.username} | 阅读次数：{$docinfo.pv}次
+					</div>
+					<div class="j-details-size">
+						{:htmlspecialchars_decode($docinfo.content)}
+					</div>
+					<!-- 上一篇 下一篇 -->
+					<div class="j-switch">
+						<ul>
+						  <li>
+							  <span><label>上</label>一篇：</span><a href="/news/{$prev['id']}.html">{$prev['title']}</a>
+						  </li>	
+						  <li>
+							  <span><label>下</label>一篇：</span><a href="/news/{$next['id']}.html">{$next['title']}</a>
+						  </li>
+						</ul>
+					</div>
+				</div>
+              </div>
+        </div>
+      </div> 
+      {/block}

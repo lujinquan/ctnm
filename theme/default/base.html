@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8&quot;UTF-8&quot;" /> 
+  <title>企业官网</title> 
+  <meta name="keywords" content="企业官网" /> 
+  <meta name="description" content="企业官网" /> 
+  <link href="/public/static/theme-default/public/css/--animate.css,iconfont.css,bootstrap.min.css,response.min.css-v=57d74a72e86b76ab2d1bd0f7065fb69c.css" rel="stylesheet" type="text/css" /> 
+  <link href="/public/static/theme-default/css/site_impt_r.css" rel="stylesheet" type="text/css" /> 
+  <link href="/public/static/theme-default/css/ftmpl_impt_643beb2d-a440-4c56-8981-2522fe0992a1.css" rel="stylesheet" type="text/css" /> 
+  <link href="/public/static/theme-default/css/page_impt_home.css" rel="stylesheet" type="text/css" /> 
+  <link href="/public/static/theme-default/css/swiper.min.css" rel="stylesheet" type="text/css" />
+  <link href="/public/static/theme-default/css/aos.css" rel="stylesheet" type="text/css" />
+  <link rel=" " href="/public/static/theme-default/ o" type="image/x-icon" /> 
+  <meta name="viewport" content="width=1440" /> 
+  <meta http-equiv="Cache-Control" content="no-transform" /> 
+  <script src="/public/static/theme-default/js/jquery.2.1.4.min.js"></script> 
+  <script src="/public/static/theme-default/js/aos.js"></script> 
+  <meta http-equiv="Cache-Control" content="no-transform" /> 
+  <meta http-equiv="Cache-Control" content="no-siteapp" /> 
+  <meta name="applicable-device" content="pc,mobile" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> 
+  <!--[if lt IE 9]> 
+<script src="../cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="../cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+<![endif]--> 
+  <script type="text/javascript" src="/public/static/theme-default/js/swiper.min.js"></script> 
+  <script type="text/javascript" src="/public/static/theme-default/js/swiper4.4.2.min.js"></script> 
+ </head> 
+ <body data-pageid="0d0c078b-a4dc-4bc8-98f8-cba38d9c4815" data-layout="flow" data-tmplid="643beb2d-a440-4c56-8981-2522fe0992a1"> 
+  <div class="main pagebox">
+
+
+
+<div id="w_grid-1560169671458" class="w_grid-000">
+    <div class="w_grid signal"> 
+     <div class="e_box e_box-000 p_gridbox"> 
+      <div id="content_box-1560169671458-0" class="e_box e_box-000 d_gridCell_0 p_gridCell">
+       <div id="w_grid-1560159420878" class="w_grid-000">
+        <div class="w_grid "> 
+         <div class="e_box e_box-000 p_gridbox"> 
+          <div id="content_box-1560159420878-0" class="e_box e_box-000 d_gridCell_0 p_gridCell">
+           <div id="w_fimg-1560159842398" class="w_fimg-000">
+            <div class="w_img animated  "> 
+             <div class="e_box e_box-000 p_box"> 
+              <a href="index.htm" class="e_link e_link-000 p_link001" target="_self"> 
+               <div class="e_image e_DImage-001 p_dimage"> 
+                <img src="/public/static/theme-default/img/logo.png" alt="logo" title="logo" width="100%" height="100%" /> 
+               </div> 
+			  </a> 
+             </div> 
+            </div>
+           </div>
+          </div> 
+          <div id="content_box-1560159420878-1" class="e_box e_box-000 d_gridCell_1 p_gridCell">
+           <div id="w_grid-1564642314049" class="w_grid-000">
+            <div class="w_grid signal"> 
+             <div class="e_box e_box-000 p_gridbox"> 
+              <div id="content_box-1564642314049-0" class="e_box e_box-000 d_gridCell_0 p_gridCell"></div> 
+             </div> 
+            </div>
+           </div>
+           <div id="c_portalResnav_main-15603953510392813" class="c_portalResnav_main-01001001"> 
+			{include file="default:header" /}
+            <script>
+			$(function () {
+				//超过一定高度导航添加类名
+				var nav = $("header"); //得到导航对象  
+				var win = $(window); //得到窗口对象  
+				var sc = $(document); //得到document文档对象。  
+				win.scroll(function () {
+					if (sc.scrollTop() >= 100) {
+						nav.addClass("on");
+					} else {
+						nav.removeClass("on");
+					}
+				})
+
+				//移动端展开nav
+				$('#navToggle').on('click', function () {
+					$('.m_nav').addClass('open');
+				})
+				//关闭nav
+				$('.m_nav .top .closed').on('click', function () {
+					$('.m_nav').removeClass('open');
+				})
+
+				//二级导航  移动端
+				$(".m_nav .ul li").click(function () {
+              
+					$(this).children("div.dropdown_menu").slideToggle('slow').end().find('.jt').toggleClass('jtRote');
+					$(this).siblings('li').children('.dropdown_menu').slideUp('slow').end().find('.jt').removeClass('jtRote');
+				});
+                
+			})
+			//导航选中
+		  $(document).ready(function() {
+				$(".navbar_nav li a").each(function() {
+					if($(this)[0].href == String(window.location)) {
+						$(this).parent("li").addClass("active");
+					}
+				});
+			})
+		</script> 
+            <script>
+				$("div[id^='c_portalResnav_main-15603953510392813']").attr("loaded","true")</script> 
+            <input type="hidden" class="nav_main_navId" value="&amp;navId=${navId}&amp;compId=portalResnav_main-15603953510392813" /> 
+           </div>
+          </div> 
+         </div> 
+        </div>
+       </div>
+      </div> 
+     </div> 
+    </div>
+   </div>
+
+   {block name="content"}{/block}
+   {include file="default:footer" /}
+
+   {block name="js"}{/block}

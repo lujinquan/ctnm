@@ -1,0 +1,360 @@
+@CHARSET "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+.pagebox{
+	width: 100%;
+}/*page property_start*/.pagebox,#-remove--flag{}/*page property_end*//*page property_start*/body,#-remove--flag{}/*page property_end*/
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+#w_grid-1560192956327 > div > .p_gridbox{
+background-image:url("../img/9aec05aa8c947dd6b428b8dda76126d2.jpg")/*tpa=http://1907085021.pool3-site.make.yun300.cn/img/9aec05aa8c947dd6b428b8dda76126d2.jpg*/;
+}
+#w_grid-1560192956327 .p_MatteIcon .iconfont:before{
+content:'\e602';
+}
+#w_grid-1560192956327 >div{
+animation-fill-mode:both;
+}
+#w_grid-1560192956327 > div > .p_gridbox > .p_gridCell:nth-child(n+1){
+margin-left:0px;
+clear:left;
+}
+/*w_grid-1560192956327*/@media only screen and (max-width: 768px){
+#w_grid-1560192956327> div > .p_gridbox > .p_gridCell{
+  margin-bottom:0rem;
+  margin-top:0rem;
+  margin-left:0px;
+}
+#w_grid-1560192956327> div > .p_gridbox > .p_gridCell:nth-child(1n+0){
+  width:100%;
+  margin-left:0px;
+  margin-right:0px;
+  clear:none;
+}
+#w_grid-1560192956327> div > .p_gridbox > .p_gridCell:nth-child(1n){
+  margin-right:0px;
+}
+}
+/*w_grid-1560192956327*/@media only screen and (min-width: 769px){
+#w_grid-1560192956327> div > .p_gridbox > .p_gridCell{
+  margin-bottom:0rem;
+  margin-top:0rem;
+  margin-left:0px;
+}
+#w_grid-1560192956327> div > .p_gridbox > .p_gridCell:nth-child(1n+0){
+  width:100%;
+  margin-left:0px;
+  margin-right:0px;
+  clear:none;
+}
+#w_grid-1560192956327> div > .p_gridbox > .p_gridCell:nth-child(1n){
+  margin-right:0px;
+}
+}
+/*w_grid-1560192956327*/@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+#w_grid-1560192956327 .p_gridbox{
+background-repeat:no-repeat;
+background-position:top center;
+background-attachment:fixed;
+}
+#w_grid-1560192956347 .p_MatteIcon .iconfont:before{
+content:'\e602';
+}
+#w_grid-1560192956347 >div{
+animation-fill-mode:both;
+}
+#w_grid-1560192956347 > div > .p_gridbox > .p_gridCell:nth-child(n+1){
+margin-left:0px;
+clear:left;
+}
+/*w_grid-1560192956347*/
+/*w_grid-1560192956347*/@media only screen and (min-width: 769px){
+#w_grid-1560192956347> div > .p_gridbox > .p_gridCell{
+  margin-bottom:0rem;
+  margin-top:0rem;
+  margin-left:0;
+}
+#w_grid-1560192956347> div > .p_gridbox > .p_gridCell:nth-child(1n+0){
+  width:100%;
+  margin-left:0;
+  margin-right:0;
+  clear:none;
+}
+#w_grid-1560192956347> div > .p_gridbox > .p_gridCell:nth-child(1n){
+  margin-right:0;
+}
+}
+/*w_grid-1560192956347*/@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+#w_grid-1566278875179 > div > .p_gridbox > .p_gridCell:nth-child(n+1){
+margin-left:0;
+clear:left;
+}
+/*w_grid-1566278875179*/
+/*w_grid-1566278875179*/
+/*w_grid-1566278875179*/@media only screen and (max-width: 1024px) and (min-width: 769px){
+}
+#w_grid-1560192956327{
+  width:auto;
+  max-width:none;
+  min-width:0px;
+  height:auto;
+  max-height:none;
+  min-height:200px;
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:0px;
+}
+#w_grid-1560192956347{
+  width:auto;
+  max-width:1240px;
+  min-width:0px;
+  height:auto;
+  max-height:none;
+  min-height:0px;
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:0px;
+}
+#w_common_text-1563456399220{
+  width:auto;
+  max-width:none;
+  min-width:0px;
+  height:auto;
+  max-height:none;
+  min-height:0px;
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:30px;
+  padding-top:0px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:0px;
+}
+#w_grid-1566278875179{
+  width:auto;
+  max-width:none;
+  min-width:0px;
+  height:auto;
+  max-height:none;
+  min-height:0px;
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:0px;
+}
+#c_portalResProduct_list-15662788747012105 .p_Product{
+width:calc((100% - 0px)/3);
+}
+#c_portalResProduct_list-15662788747012105 .p_CommonSummaryBoxA{
+text-align:center;
+}
+#c_portalResProduct_list-15662788747012105 .p_MatteIcon .iconfont:before{
+content:'\e602';
+}
+#c_portalResProduct_list-15662788747012105 >div{
+animation-fill-mode:both;
+}
+#c_portalResProduct_list-15662788747012105 .proBox{
+width:100%;
+height:auto;
+overflow:hidden;
+}
+#c_portalResProduct_list-15662788747012105 .proContainer{
+width:100%;
+height:auto;
+overflow:hidden;
+margin:1rem auto;
+}
+#c_portalResProduct_list-15662788747012105 .proLi{
+position:relative;
+overflow:hidden;
+padding:0 20px 20px;
+}
+#c_portalResProduct_list-15662788747012105 .porTbox{
+position:relative;
+overflow:hidden;
+width:100%;
+height:230px;
+}
+#c_portalResProduct_list-15662788747012105 .proImg{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+width:100%;
+transition:all .5s ease;
+}
+#c_portalResProduct_list-15662788747012105 .porBbox{
+position:relative;
+overflow:hidden;
+width:100%;
+height:100%;
+padding:20px 20px 20px;
+border:1px solid #f2f2f2;
+}
+#c_portalResProduct_list-15662788747012105 .proTitle{
+font-size:1rem;
+color:#333;
+overflow:hidden;
+text-overflow:ellipsis;
+position:relative;
+white-space:nowrap;
+width:100%;
+}
+#c_portalResProduct_list-15662788747012105 .proSummry{
+color:#777;
+white-space:nowrap;
+overflow:hidden;
+margin:10px 0;
+text-overflow:ellipsis;
+}
+#c_portalResProduct_list-15662788747012105 .lookDetail{
+position:relative;
+display:block;
+color:#777;
+height:38px;
+line-height:38px;
+border-top:1px solid  #e5e5e5;
+}
+#c_portalResProduct_list-15662788747012105 .arrowsR{
+position:absolute;
+top:50%;
+right:0px;
+transform:translate(0, -50%);
+width:30px;
+}
+#c_portalResProduct_list-15662788747012105 .arrowsR   img{
+position:absolute;
+transition:all .5s ease;
+}
+#c_portalResProduct_list-15662788747012105 .harr{
+opacity:0;
+}
+#c_portalResProduct_list-15662788747012105 .showBox{
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+height:100%;
+opacity:0;
+background:rgba(0,0,0,.6);
+transition:all 0.5s ease;
+}
+#c_portalResProduct_list-15662788747012105 .showBoxLink{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+display:block;
+width:60%;
+color:#fff;
+text-align:center;
+font-size:1rem;
+padding:0.5rem 0;
+}
+#c_portalResProduct_list-15662788747012105 .showBoxLink::before{
+content:'';
+position:absolute;
+top:0px;
+left:50%;
+transform:translateX(-50%);
+width:60%;
+height:1px;
+background:#fff;
+transition:all .5s ease;
+}
+#c_portalResProduct_list-15662788747012105 .showBoxLink::after{
+content:'';
+position:absolute;
+bottom:0px;
+left:50%;
+transform:translateX(-50%);
+width:60%;
+height:1px;
+background:#fff;
+transition:all .5s ease;
+}
+#c_portalResProduct_list-15662788747012105 .lookDetail:hover .barr{
+opacity:0;
+}
+#c_portalResProduct_list-15662788747012105 .lookDetail:hover .harr{
+opacity:1;
+}
+#c_portalResProduct_list-15662788747012105 .proLi:hover  .showBox{
+opacity:1;
+}
+#c_portalResProduct_list-15662788747012105 .proLi:hover .proImg{
+transform:translate( -50% ,-50%) scale(1.1);
+}
+#c_portalResProduct_list-15662788747012105 .proLi:hover .showBoxLink::before{
+width:1rem;
+}
+#c_portalResProduct_list-15662788747012105 .proLi:hover .showBoxLink::after{
+width:1rem;
+}
+@media only screen and (min-width: 769px){
+
+#c_portalResProduct_list-15662788747012105 .proContainer{
+  max-width:100%;
+}
+#c_portalResProduct_list-15662788747012105 .proLi{
+  width:calc(100% / 3);
+  height:360px;
+  float:left;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+
+#c_portalResProduct_list-15662788747012105 .proContainer {
+    max-width:100%;
+  }
+#c_portalResProduct_list-15662788747012105 .proLi {
+    width:50%;
+    height:360px;
+  }
+}
+#c_portalResProduct_list-15662788747012105{
+max-height:none;
+padding-top:0px;
+padding-left:0px;
+padding-bottom:0px;
+min-height:0px;
+margin-right:auto;
+margin-left:auto;
+max-width:none;
+width:auto;
+margin-top:0px;
+margin-bottom:0px;
+min-width:0px;
+height:auto;
+padding-right:0px;
+}

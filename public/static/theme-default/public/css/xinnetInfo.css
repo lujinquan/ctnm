@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px){
+    .c_portalResXinNet_AD-01001{
+        bottom: 0;
+        right: 0;
+    }
+    .c_portalResXinNet_AD-01001 img{
+        width: 100% ;
+    }
+}
+/* 以下样式待优化 */
+@media only screen and (min-width: 769px){/*大屏*/
+    .c_portalResXinNet_AD-01001{
+        bottom: 0;
+        right: 0;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){/*中屏*/
+
+}
+.c_portalResXinNet_AD-01001{
+    position: fixed;
+    z-index: 10000;
+}
+
+.c_portalResXinNet_AD-01001 .p_Close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.c_portalResXinNet_AD-01001 .p_Close .iconfont:before {
+    content: '\e690';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*制作信息*/
+.c_portalResXinNet_logoInfo-01001{
+    width: 100%;
+    /*position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;*/
+}
+@media screen and (max-width: 768px){
+    .c_portalResXinNet_logoInfo-01001 .p_imgBox{
+        height: 60px;
+        line-height: 60px;
+    }
+    .c_portalResXinNet_logoInfo-01001 img{
+
+    }
+}
+/* 以下样式待优化 */
+@media only screen and (min-width: 769px){/*大屏*/
+    .c_portalResXinNet_logoInfo-01001 .p_imgBox{
+        height: 90px;
+        line-height: 90px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){/*中屏*/  }
+
+.c_portalResXinNet_logoInfo-01001 .p_imgBox{
+    width: 100%;
+    padding-left: 20%;
+    background-color: rgba(31, 31, 31, 1);
+    color: #999;
+}
+.c_portalResXinNet_logoInfo-01001 .p_imgBox img{
+    margin: 0 10px;
+}
+.c_portalResXinNet_logoInfo-01001 .p_imgBox .p_desc{
+    display: inline-block;
+}
+

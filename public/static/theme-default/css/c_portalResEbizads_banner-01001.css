@@ -1,0 +1,1421 @@
+
+@media only screen and (max-width: 768px){/*小屏*/ 
+	.c_portalResEbizads_banner-01001 .p_prompt{
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: inherit;
+  font-size: 16px;
+  border:1px solid #E4E4E4;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title{
+  display: inline-table;
+  padding: 0 30px;
+  height: 100%;
+  min-height: 260px;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title .iconfont:before {
+  content: "";
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title .first{
+  height: auto;
+  display: table-cell;
+  font-size: 36px;
+  margin-right: 10px;
+  position: relative;
+  color: #09bb07;
+  vertical-align: middle;
+  padding: 0 10px 10px 0;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title .first:before{
+  content: "\e6b4";
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title{
+  font-size: 24px;
+  text-align: left;
+  color: rgba(51,51,51,1);
+  font-weight: bold;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title .font{
+  display: table-cell;
+  line-height: normal;
+  vertical-align: middle;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .promptbox{
+  width: auto;
+  height: 100%;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_content {
+  font-size: 18px;
+  color: rgba(105, 105, 105,1);
+  padding-left: 65px;
+}
+/*列表缩略图切换1*/
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD{
+	display:inline-block;
+	vertical-align:middle;
+	cursor:pointer;
+	font-size:56px;
+	color:#e2e2e2;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD .iconfont:before{
+	content: '\e687';
+	display: inline-block;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD .font{
+	display:table;
+	width:inherit;
+	height:inherit;
+	pointer-events:none;
+}/*列表缩略图切换1*/
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC{
+	display:inline-block;
+	vertical-align:middle;
+	cursor:pointer;
+	font-size:56px;
+	color:#e2e2e2;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC .iconfont:before{
+	content: '\e687';
+	display: inline-block;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC .font{
+	display:table;
+	width:inherit;
+	height:inherit;
+	pointer-events:none;
+}/*序号图片组符*/
+.c_portalResEbizads_banner-01001 .p_ListNumBtn{
+	display:inline-table;
+	height:30px;
+	width:30px;
+	background-color:#67b8b4;
+	border-width:1px;
+	border-color:transparent;
+	color:#999999;
+	font-size: 12px;
+	font-family:'Microsoft YaHei';
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn img{
+	display:none;
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn .shape{
+	display:table-cell;
+	width:inherit;
+	height:inherit;
+	text-align:center;
+	vertical-align:middle;
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn:active {
+	color:rgba(255,255,255,1);
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn.active {
+	color:rgba(255,255,255,1);
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn.j-nav-active {
+	color:rgba(255,255,255,1);
+}
+/*方形图片组符*/
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn{
+	display:inline-block;
+	height:10px;
+	width:100px;
+	padding:0;
+	background-color:#f2f2f2;
+	border-width:1px;
+	border-color:transparent;
+	font-size: 12px;
+	font-family:'Microsoft YaHei';
+	text-align:center;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn img{
+	display:none;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn .shape{
+	text-indent:-9999em;
+	width:inherit;
+	height:inherit;
+	vertical-align:middle;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn:active {
+	background-color:#67b8b4;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn.active {
+	background-color:#67b8b4;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn.j-nav-active {
+	background-color:#67b8b4;
+}
+/*圆型图片组符*/
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn{
+	width:15px;
+	height:15px;
+	display: inline-table;
+	background-color:rgba(228,228,228,1);
+	color:rgba(153,153,153,1);
+	font-size: 12px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	text-align: center;
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn img{
+	display:none;
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn .shape{
+	width:inherit;
+	height:inherit;
+	text-indent: -99999px;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: inherit;
+	-moz-border-radius: inherit;
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn:active {
+	background-color:rgba(105,192,188,1);
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn.active {
+	background-color:rgba(105,192,188,1);
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn.j-nav-active {
+	background-color:rgba(105,192,188,1);
+}
+/*通用图片组符*/
+.c_portalResEbizads_banner-01001 .p_NumBtn{
+	width:150px;
+	height:66px;
+	border-color:rgba(242,242,242,1);
+	border-width:2px;
+	border-style:solid;
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn .shape{
+	display:none;
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn:active{
+	border-color:rgba(103,184,180,1);
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn.active{
+	border-color:rgba(103,184,180,1);
+}
+/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_ThumbnailBox{
+	width: inherit;
+    height: auto;
+    background-color: transparent;
+    overflow: hidden;
+}
+/*图集页概要信息*/
+.c_portalResEbizads_banner-01001 .p_ImgSummary{
+	text-align:justify;
+	vertical-align:top;
+	word-break:break-all;
+}/*图集标题*/
+.c_portalResEbizads_banner-01001 .p_ImgHead{
+	display:inline-table;
+	margin:0;
+	padding:0;
+	color:#323232;
+	font-size:30px;
+	font-weight:400;
+	text-align:left;
+	white-space:nowrap;
+	overflow:visible;
+}
+.c_portalResEbizads_banner-01001 .p_ImgHead .font{
+	display:table-cell;
+	vertical-align:top;
+	line-height: 30px;
+}
+.c_portalResEbizads_banner-01001 .p_ImgHead .iconfont:before{
+	content:"";
+}/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_TitleBox{
+	width: inherit;
+    height: auto;
+    overflow: hidden;
+}
+/*链接元素*/
+/*图集图片说明容器*/
+.c_portalResEbizads_banner-01001 .p_SummaryBox{
+	   width: inherit;
+    height: auto;
+    border-width:1px;
+    border-style:none;
+    border-color:rgba(228,228,228,0);
+    background-color:rgba(179, 179, 179,1);
+    overflow: visible;
+}
+/*纯图标切换按钮*/
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB{
+	background:rgba(81,80,80,.3);
+	width:64px;
+	height:139px;
+	cursor:pointer;
+	text-align:center;
+	color:rgba(255,255,255,1);
+	font-size:40px;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB .font{
+	display:table;
+	width:inherit;
+	height:inherit;
+	/*background-color:rgba(202,202,202,.3);*/
+	pointer-events:none;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB .iconfont{
+	display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB:hover{
+	border-width: 0;
+    border-style: solid;
+    border-color:rgba(255,255,255,0);
+    background-color:rgba(115,115,115,.7);
+    color:rgba(106,192,189,1);
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB:active{
+	border-width: 0;
+    border-style: solid;
+    border-color:rgba(255,255,255,0);
+    background-color:rgba(81,80,80,.7);
+}/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_interactionB{
+	width: inherit;
+    height: auto;
+    background-color: transparent;
+    overflow: hidden;
+}
+/*纯图标切换按钮*/
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA{
+	background:rgba(81,80,80,.3);
+	width:64px;
+	height:139px;
+	cursor:pointer;
+	text-align:center;
+	color:rgba(255,255,255,1);
+	font-size:40px;
+	z-index: 999;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA .font{
+	display:table;
+	width:inherit;
+	height:inherit;
+	/*background-color:rgba(202,202,202,.3);*/
+	pointer-events:none;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA .iconfont{
+	display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+    right: 4px;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA:hover{
+	border-width: 0;
+    border-style: solid;
+    border-color:rgba(255,255,255,0);
+    background-color:rgba(115,115,115,.7);
+    color:rgba(106,192,189,1);
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA:active{
+	border-width: 0;
+    border-style: solid;
+    border-color:rgba(255,255,255,0);
+    background-color:rgba(81,80,80,.7);
+}/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_interactionA{
+	width: inherit;
+    height: auto;
+    background-color: transparent;
+    overflow: hidden;
+}
+.c_portalResEbizads_banner-01001 .p_interactionA + .p_interactionA {
+    left: initial;
+    right: 0;
+}
+/*多图组大图边框*/
+.c_portalResEbizads_banner-01001 .p_imageA{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+/*链接元素*/
+/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_images{
+	width: inherit;
+    height: auto;
+    background-color: transparent;
+    overflow: hidden;
+}
+/*主要内容区容器*/
+
+.c_portalResEbizads_banner-01001 .p_banner{
+	width: inherit;
+    height:auto;
+    border-width:1px;
+    border-style:none;
+    border-color:rgba(255, 255, 255,1);
+    background-color:transparent;
+    overflow: visible;
+}
+.c_portalResEbizads_banner-01001{
+	min-width: 300px;
+	overflow:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_banner{
+	width:100%;
+	height:100%;
+	background-color: transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_images{
+	width:auto;
+	height:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBox{
+	width:auto;
+	height:auto;
+	border-width: 0;
+	background-color: transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBoxA{
+	width:auto;
+	height:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_interactionA{
+	width:auto;
+	height:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_interactionB{
+	width:auto;
+	height:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_TitleBox{
+	border-width: 0;
+	}
+.c_portalResEbizads_banner-01001 .p_TitleBoxA{
+	width:auto;
+	height:auto;
+	border-width: 0;
+	background-color: transparent;
+	}
+.c_portalResEbizads_banner-01001 .c_banner{
+	width:inherit;
+	height:inherit;
+	}
+.c_portalResEbizads_banner-01001 .p_images{
+	width:inherit;
+	height:inherit;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	}
+.c_portalResEbizads_banner-01001 .p_LinkA{
+	width:inherit;
+	height:inherit;
+	display: block;
+	position: relative;
+	}
+.c_portalResEbizads_banner-01001 .p_imageA{
+	vertical-align:baseline;
+	text-align:center;
+	width:inherit;
+	height:inherit;
+	}
+.c_portalResEbizads_banner-01001 .p_imageA:hover{
+	background-color:transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_imageA:hover:after{
+	background-color:transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_interactionA{
+	cursor: pointer;
+	left: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index:99;
+	overflow:visible;
+	}
+.c_portalResEbizads_banner-01001 .p_interactionB{
+	cursor: pointer;
+	right: 0;
+	height:100%;
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	overflow:visible;
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA{
+	position: absolute;
+	top: 50%;
+	margin-top: -37px;
+	padding-top: 10px;
+	color:rgb(187, 182, 182);
+	left: 0;
+	width:33px;
+	height:64px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 999;
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA .iconfont:before{
+	font-size: 30px;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB{
+	position: absolute;
+	top: 50%;
+	margin-top: -37px;
+	right: 0;
+	width:33px;
+	height:64px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 999;
+	padding-top: 10px;
+	color:rgb(187, 182, 182);
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB .iconfont:before{
+	font-size: 30px;
+	}
+.c_portalResEbizads_banner-01001 .p_SummaryBox{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:5;
+	height:70px;
+	background-color: transparent;
+	display: none;
+	}
+.c_portalResEbizads_banner-01001 .p_SummaryBox:hover{
+	background-color: transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_SummaryBox .p_LinkB{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.c_portalResEbizads_banner-01001 .p_TitleBox {
+    width: 100%;
+    height: auto;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    font-weight: bold;
+}
+	.c_portalResEbizads_banner-01001 .p_LinkA .p_TitleBox span{
+	    display: block;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    overflow: hidden;
+	}
+	.c_portalResEbizads_banner-01001 .p_LinkA:hover .p_TitleBox span {
+		color: #fff;
+	}
+.c_portalResEbizads_banner-01001 .p_TitleBoxA{
+	width:100%;
+	height:inherit;
+	padding-left:20px;
+	padding-right:20px;
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBox{
+	position:absolute;
+	text-align:center;
+	font-size:0;
+	z-index:6;
+	overflow:hidden;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBoxA{
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+	font-size: 0;
+	z-index: 6;
+	overflow: hidden;
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBox .p_NumBtn:first-child{
+	margin-left: 0;
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn{
+	margin-right:6px;
+	font-size:0;
+	width: 90px;
+	height: auto;
+	display: inline-block;
+	overflow: hidden;
+	}
+
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn{
+	margin-left:10px;
+	}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn{
+	margin-left:10px;
+	}
+
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC{
+	position:absolute;
+	top: 50%;
+	left: 0;
+	cursor: pointer;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD{
+	position:absolute;
+	top: 50%;
+	right: 0;
+	cursor: pointer;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn,
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn,
+.c_portalResEbizads_banner-01001 .p_ListNumBtn{
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn{
+	width:98px;
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD .iconfont:before{
+	content: "\e6ae";
+	font-size: 30px;
+	}
+.c_portalResEbizads_banner-01001 .p_ImgSummary{
+	font-weight: normal;
+	white-space: normal;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC .iconfont{
+	font-size: 30px;
+	color: rgba(255,255,255,.6);
+	display: table-cell;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD .iconfont{
+	font-size: 30px;
+	color: rgba(255,255,255,.6);
+	display: table-cell;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC:hover .iconfont {
+    color: rgba(105,192,188,1);
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD:hover .iconfont {
+    color: rgba(105,192,188,1);
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn:hover{
+    border-color: rgba(103,184,180,1);
+}
+
+/*缩略图插件样式*/
+
+.c_portalResEbizads_banner-01001 .swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  height: 100%;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  -webkit-transform: translate3d(0px, 0, 0);
+  -moz-transform: translate3d(0px, 0, 0);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
+}
+.swiper-slide {
+  -webkit-flex-shrink: 0;
+  -ms-flex: 0 0 auto;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.c_portalResEbizads_banner-01001 .p_MatteIcon:before{content:'\e752';.}
+.c_portalResEbizads_banner-01001 .widther img{
+	width: auto!important;
+}
+.c_portalResEbizads_banner-01001 .swiper-pagination {
+    position: absolute;
+    z-index: 20;
+    bottom: 65px;
+    width: 100%;
+    text-align: center;
+
+}
+.c_portalResEbizads_banner-01001 .dot{
+	width: 20px;
+	height: 20px;
+}
+.c_portalResEbizads_banner-01001 .swiper-pagination span{
+	display: inline-block;
+	margin-right: 4px;
+}
+.c_portalResEbizads_banner-01001 .background_default{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin: 0 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.c_portalResEbizads_banner-01001 .swiper-wrapper .swiper-slide img {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+}
+.c_portalResEbizads_banner-01001 .background_default{  
+		width: 17px;
+		height: 17px;
+	}
+	.c_portalResEbizads_banner-01001 .p_SwitchBtnA{
+		display: none;
+
+	}
+	.c_portalResEbizads_banner-01001 .p_SwitchBtnB{
+		display: none;
+	}
+}
+@media only screen and (min-width: 769px){/*大屏*/
+	.c_portalResEbizads_banner-01001 .p_prompt{
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: inherit;
+  font-size: 16px;
+  border:1px solid #E4E4E4;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title{
+  display: inline-table;
+  padding: 0 30px;
+  height: 100%;
+  min-height: 260px;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title .iconfont:before {
+  content: "";
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title .first{
+  height: auto;
+  display: table-cell;
+  font-size: 36px;
+  margin-right: 10px;
+  position: relative;
+  color: #09bb07;
+  vertical-align: middle;
+  padding: 0 10px 10px 0;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title .first:before{
+  content: "\e6b4";
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title{
+  font-size: 24px;
+  text-align: left;
+  color: rgba(51,51,51,1);
+  font-weight: bold;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_title .font{
+  display: table-cell;
+  line-height: normal;
+  vertical-align: middle;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .promptbox{
+  width: auto;
+  height: 100%;
+}
+.c_portalResEbizads_banner-01001 .p_prompt .prompt_content {
+  font-size: 18px;
+  color: rgba(105, 105, 105,1);
+  padding-left: 65px;
+}
+/*列表缩略图切换1*/
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD{
+	display:inline-block;
+	vertical-align:middle;
+	cursor:pointer;
+	font-size:56px;
+	color:#e2e2e2;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD .iconfont:before{
+	content: '\e687';
+	display: inline-block;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD .font{
+	display:table;
+	width:inherit;
+	height:inherit;
+	pointer-events:none;
+}/*列表缩略图切换1*/
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC{
+	display:inline-block;
+	vertical-align:middle;
+	cursor:pointer;
+	font-size:56px;
+	color:#e2e2e2;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC .iconfont:before{
+	content: '\e687';
+	display: inline-block;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC .font{
+	display:table;
+	width:inherit;
+	height:inherit;
+	pointer-events:none;
+}/*序号图片组符*/
+.c_portalResEbizads_banner-01001 .p_ListNumBtn{
+	display:inline-table;
+	height:30px;
+	width:30px;
+	background-color:#67b8b4;
+	border-width:1px;
+	border-color:transparent;
+	color:#999999;
+	font-size: 12px;
+	font-family:'Microsoft YaHei';
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn img{
+	display:none;
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn .shape{
+	display:table-cell;
+	width:inherit;
+	height:inherit;
+	text-align:center;
+	vertical-align:middle;
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn:active {
+	color:rgba(255,255,255,1);
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn.active {
+	color:rgba(255,255,255,1);
+}
+.c_portalResEbizads_banner-01001 .p_ListNumBtn.j-nav-active {
+	color:rgba(255,255,255,1);
+}
+/*方形图片组符*/
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn{
+	display:inline-block;
+	height:10px;
+	width:100px;
+	padding:0;
+	background-color:#f2f2f2;
+	border-width:1px;
+	border-color:transparent;
+	font-size: 12px;
+	font-family:'Microsoft YaHei';
+	text-align:center;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn img{
+	display:none;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn .shape{
+	text-indent:-9999em;
+	width:inherit;
+	height:inherit;
+	vertical-align:middle;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn:active {
+	background-color:#67b8b4;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn.active {
+	background-color:#67b8b4;
+}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn.j-nav-active {
+	background-color:#67b8b4;
+}
+/*圆型图片组符*/
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn{
+	width:15px;
+	height:15px;
+	display: inline-table;
+	background-color:rgba(228,228,228,1);
+	color:rgba(153,153,153,1);
+	font-size: 12px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	text-align: center;
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn img{
+	display:none;
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn .shape{
+	width:inherit;
+	height:inherit;
+	text-indent: -99999px;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: inherit;
+	-moz-border-radius: inherit;
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn:active {
+	background-color:rgba(105,192,188,1);
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn.active {
+	background-color:rgba(105,192,188,1);
+}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn.j-nav-active {
+	background-color:rgba(105,192,188,1);
+}
+/*通用图片组符*/
+.c_portalResEbizads_banner-01001 .p_NumBtn{
+	width:150px;
+	height:66px;
+	border-color:rgba(242,242,242,1);
+	border-width:2px;
+	border-style:solid;
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn .shape{
+	display:none;
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn:active{
+	border-color:rgba(103,184,180,1);
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn.active{
+	border-color:rgba(103,184,180,1);
+}
+/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_ThumbnailBox{
+	width: inherit;
+    height: auto;
+    background-color: transparent;
+    overflow: hidden;
+}
+/*图集页概要信息*/
+.c_portalResEbizads_banner-01001 .p_ImgSummary{
+	text-align:justify;
+	vertical-align:top;
+	word-break:break-all;
+}/*图集标题*/
+.c_portalResEbizads_banner-01001 .p_ImgHead{
+	display:inline-table;
+	margin:0;
+	padding:0;
+	color:#323232;
+	font-size:30px;
+	font-weight:400;
+	text-align:left;
+	white-space:nowrap;
+	overflow:visible;
+}
+.c_portalResEbizads_banner-01001 .p_ImgHead .font{
+	display:table-cell;
+	vertical-align:top;
+	line-height: 30px;
+}
+.c_portalResEbizads_banner-01001 .p_ImgHead .iconfont:before{
+	content:"";
+}/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_TitleBox{
+	width: inherit;
+    height: auto;
+    overflow: hidden;
+}
+/*链接元素*/
+/*图集图片说明容器*/
+.c_portalResEbizads_banner-01001 .p_SummaryBox{
+	   width: inherit;
+    height: auto;
+    border-width:1px;
+    border-style:none;
+    border-color:rgba(228,228,228,0);
+    background-color:rgba(179, 179, 179,1);
+    overflow: visible;
+}
+/*纯图标切换按钮*/
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB{
+	background:rgba(81,80,80,.3);
+	width:64px;
+	height:139px;
+	cursor:pointer;
+	text-align:center;
+	color:rgba(255,255,255,1);
+	font-size:40px;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB .font{
+	display:table;
+	width:inherit;
+	height:inherit;
+	/*background-color:rgba(202,202,202,.3);*/
+	pointer-events:none;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB .iconfont{
+	display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB:hover{
+	border-width: 0;
+    border-style: solid;
+    border-color:rgba(255,255,255,0);
+    background-color:rgba(115,115,115,.7);
+    color:rgba(106,192,189,1);
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB:active{
+	border-width: 0;
+    border-style: solid;
+    border-color:rgba(255,255,255,0);
+    background-color:rgba(81,80,80,.7);
+}/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_interactionB{
+	width: inherit;
+    height: auto;
+    background-color: transparent;
+    overflow: hidden;
+}
+/*纯图标切换按钮*/
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA{
+	background:rgba(81,80,80,.3);
+	width:64px;
+	height:139px;
+	cursor:pointer;
+	text-align:center;
+	color:rgba(255,255,255,1);
+	font-size:40px;
+	z-index: 999;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA .font{
+	display:table;
+	width:inherit;
+	height:inherit;
+	/*background-color:rgba(202,202,202,.3);*/
+	pointer-events:none;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA .iconfont{
+	display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+    right: 4px;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA:hover{
+	border-width: 0;
+    border-style: solid;
+    border-color:rgba(255,255,255,0);
+    background-color:rgba(115,115,115,.7);
+    color:rgba(106,192,189,1);
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA:active{
+	border-width: 0;
+    border-style: solid;
+    border-color:rgba(255,255,255,0);
+    background-color:rgba(81,80,80,.7);
+}/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_interactionA{
+	width: inherit;
+    height: auto;
+    background-color: transparent;
+    overflow: hidden;
+}
+.c_portalResEbizads_banner-01001 .p_interactionA + .p_interactionA {
+    left: initial;
+    right: 0;
+}
+/*多图组大图边框*/
+.c_portalResEbizads_banner-01001 .p_imageA{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+/*链接元素*/
+/*通用容器*/
+
+.c_portalResEbizads_banner-01001 .p_images{
+	width: inherit;
+    height: auto;
+    background-color: transparent;
+    overflow: hidden;
+}
+/*主要内容区容器*/
+
+.c_portalResEbizads_banner-01001 .p_banner{
+	width: inherit;
+    height:auto;
+    border-width:1px;
+    border-style:none;
+    border-color:rgba(255, 255, 255,1);
+    background-color:transparent;
+    overflow: visible;
+}
+.c_portalResEbizads_banner-01001{
+	min-width: 300px;
+	overflow:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_banner{
+	width:100%;
+	height:100%;
+	background-color: transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_images{
+	width:auto;
+	height:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBox{
+	width:auto;
+	height:auto;
+	border-width: 0;
+	background-color: transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBoxA{
+	width:auto;
+	height:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_interactionA{
+	width:auto;
+	height:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_interactionB{
+	width:auto;
+	height:auto;
+	}
+.c_portalResEbizads_banner-01001 .p_TitleBox{
+	border-width: 0;
+	}
+.c_portalResEbizads_banner-01001 .p_TitleBoxA{
+	width:auto;
+	height:auto;
+	border-width: 0;
+	background-color: transparent;
+	}
+.c_portalResEbizads_banner-01001 .c_banner{
+	width:inherit;
+	height:inherit;
+	}
+.c_portalResEbizads_banner-01001 .p_images{
+	width:inherit;
+	height:inherit;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	}
+.c_portalResEbizads_banner-01001 .p_LinkA{
+	width:inherit;
+	height:inherit;
+	display: block;
+	position: relative;
+	}
+.c_portalResEbizads_banner-01001 .p_imageA{
+	vertical-align:baseline;
+	text-align:center;
+	width:inherit;
+	height:inherit;
+	}
+.c_portalResEbizads_banner-01001 .p_imageA:hover{
+	background-color:transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_imageA:hover:after{
+	background-color:transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_interactionA{
+	cursor: pointer;
+	left: 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index:99;
+	overflow:visible;
+	}
+.c_portalResEbizads_banner-01001 .p_interactionB{
+	cursor: pointer;
+	right: 0;
+	height:100%;
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	overflow:visible;
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA{
+	position: absolute;
+	top: 50%;
+	margin-top: -37px;
+	padding-top: 10px;
+	color:rgb(187, 182, 182);
+	left: 0;
+	width:33px;
+	height:64px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 999;
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnA .iconfont:before{
+	font-size: 30px;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB{
+	position: absolute;
+	top: 50%;
+	margin-top: -37px;
+	right: 0;
+	width:33px;
+	height:64px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 999;
+	padding-top: 10px;
+	color:rgb(187, 182, 182);
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnB .iconfont:before{
+	font-size: 30px;
+	}
+.c_portalResEbizads_banner-01001 .p_SummaryBox{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:5;
+	height:70px;
+	background-color: transparent;
+	display: none;
+	}
+.c_portalResEbizads_banner-01001 .p_SummaryBox:hover{
+	background-color: transparent;
+	}
+.c_portalResEbizads_banner-01001 .p_SummaryBox .p_LinkB{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.c_portalResEbizads_banner-01001 .p_TitleBox {
+    width: 100%;
+    height: auto;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    font-weight: bold;
+}
+	.c_portalResEbizads_banner-01001 .p_LinkA .p_TitleBox span{
+		display: block;
+	    height: 25px;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    margin-top: 15px;
+	}
+	.c_portalResEbizads_banner-01001 .p_LinkA:hover .p_TitleBox span {
+		color: #fff;
+	}
+
+.c_portalResEbizads_banner-01001 .p_TitleBoxA{
+	width:100%;
+	height:inherit;
+	padding-left:20px;
+	padding-right:20px;
+	}
+.c_portalResEbizads_banner-01001 .p_ImgHead{
+	padding-top:10px;
+	padding-bottom:12px;
+	font-size: 30px;
+	font-weight: normal;
+	font-family: "黑体";
+	color: #fff;
+	white-space: normal;
+}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBox{
+	position:absolute;
+	text-align:center;
+	font-size:0;
+	z-index:6;
+	overflow:hidden;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBoxA{
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+	font-size: 0;
+	z-index: 6;
+	overflow: hidden;
+	}
+.c_portalResEbizads_banner-01001 .p_ThumbnailBox .p_NumBtn:first-child{
+	margin-left: 0;
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn{
+	margin-right:6px;
+	font-size:0;
+	width: 90px;
+	height: auto;
+	display: inline-block;
+	overflow: hidden;
+	}
+
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn{
+	margin-left:10px;
+	}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn{
+	margin-left:10px;
+	}
+
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC{
+	position:absolute;
+	top: 50%;
+	left: 0;
+	cursor: pointer;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD{
+	position:absolute;
+	top: 50%;
+	right: 0;
+	cursor: pointer;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	}
+.c_portalResEbizads_banner-01001 .p_CircleNumBtn,
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn,
+.c_portalResEbizads_banner-01001 .p_ListNumBtn{
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+.c_portalResEbizads_banner-01001 .p_SquareNumBtn{
+	width:98px;
+	}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD .iconfont:before{
+	content: "\e6ae";
+	font-size: 30px;
+	}
+.c_portalResEbizads_banner-01001 .p_ImgSummary{
+	font-weight: normal;
+	white-space: normal;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC .iconfont{
+	font-size: 30px;
+	color: rgba(255,255,255,.6);
+	display: table-cell;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD .iconfont{
+	font-size: 30px;
+	color: rgba(255,255,255,.6);
+	display: table-cell;
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnC:hover .iconfont {
+    color: rgba(105,192,188,1);
+}
+.c_portalResEbizads_banner-01001 .p_SwitchBtnD:hover .iconfont {
+    color: rgba(105,192,188,1);
+}
+.c_portalResEbizads_banner-01001 .p_NumBtn:hover{
+    border-color: rgba(103,184,180,1);
+}
+
+/*缩略图插件样式*/
+
+.c_portalResEbizads_banner-01001 .swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  height: 100%;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  -webkit-transform: translate3d(0px, 0, 0);
+  -moz-transform: translate3d(0px, 0, 0);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
+}
+.swiper-slide {
+  -webkit-flex-shrink: 0;
+  -ms-flex: 0 0 auto;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.c_portalResEbizads_banner-01001 .p_MatteIcon:before{content:'\e752';.}
+.c_portalResEbizads_banner-01001 .widther img{
+	width: auto!important;
+}
+.c_portalResEbizads_banner-01001 .swiper-pagination {
+    position: absolute;
+    z-index: 20;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+}
+.c_portalResEbizads_banner-01001 .swiper-pagination span{
+	display: inline-block;
+	margin-right: 4px;
+}
+.c_portalResEbizads_banner-01001 .background_default{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    margin: 0 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.c_portalResEbizads_banner-01001 .swiper-wrapper .swiper-slide img {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){/*中屏*/
+  
+}

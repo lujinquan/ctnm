@@ -1,0 +1,447 @@
+.c_portalResNews_list-01001{
+    min-width: 320px;
+    width: 100%;
+}
+.c_portalResNews_list-01001 .p_PromptNoneData {
+    width: auto;
+    text-align: center
+}
+
+.c_portalResNews_list-01001 .p_PromptNoneData .prompt_title .iconfont:before {
+    content: ""
+}
+
+.c_portalResNews_list-01001 .p_PromptNoneData .prompt_title .first {
+    height: auto;
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    padding: 0 10px 5px 0;
+}
+
+.c_portalResNews_list-01001 .p_PromptNoneData .prompt_title {
+    display: inline-table;
+    padding: 0 30px;
+    min-height: 200px;
+    height: 100%
+}
+
+.c_portalResNews_list-01001 .p_PromptNoneData .prompt_title .first:before {
+    content: "\e6b4"
+}
+
+.c_portalResNews_list-01001 .p_PromptNoneData .prompt_title .font {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left
+}
+
+.c_portalResNews_list-01001 .p_PromptNoneData .promptbox {
+    width: auto;
+    height: 100%
+}
+
+.c_portalResNews_list-01001 .p_PromptNoneData .prompt_content {
+    padding-left: 65px
+}
+
+/*引导短连接*/
+
+.c_portalResNews_list-01001 .p_moreBtn {
+    position: static;
+    width: auto;
+    display: inline-table;
+    min-height: 29px;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    min-width: 86px;
+    cursor: pointer;
+    text-align: center
+}
+
+.c_portalResNews_list-01001 .p_moreBtn .font {
+    white-space: nowrap;
+    overflow: visible;
+    vertical-align: middle
+}
+
+.c_portalResNews_list-01001 .p_moreBtn .iconfont:before {
+    content: ""
+}
+
+@-moz-keyframes three-quarters-loader {
+    0% {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes three-quarters-loader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes three-quarters-loader {
+    0% {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loading_animation {
+    -moz-animation: three-quarters-loader 850ms infinite linear;
+    -webkit-animation: three-quarters-loader 850ms infinite linear;
+    animation: three-quarters-loader 850ms infinite linear;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle
+}
+
+.c_portalResNews_list-01001 .p_loading {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.c_portalResNews_list-01001 .p_loading .iconfont:before {
+    content: ""
+}
+
+.c_portalResNews_list-01001 .p_loading .font {
+    display: inline-block;
+    margin-left: 20px;
+    height: inherit
+}
+
+
+/*无效果/分组*/
+
+.c_portalResNews_list-01001 .p_moreBox {
+    margin: 0 20px;
+    width: auto;
+    height: auto;
+    padding: 0;
+    overflow: hidden
+}
+
+/*引导短连接 查看详情 */
+
+.c_portalResNews_list-01001 .p_ToDetail {
+    display: inline-block;
+    margin: 0;
+   padding: 5px 10px;
+    min-width: 86px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+a>.c_portalResNews_list-01001 .p_ToDetail:hover {
+    cursor: pointer
+}
+
+/*概要信息*/
+
+.c_portalResNews_list-01001 .p_SummaryBox {
+    margin: 0;
+    width: 236px;
+    height: 317px;
+    padding: 0;
+    overflow: hidden
+}
+
+.c_portalResNews_list-01001 .p_summary {
+    text-align: left;
+    vertical-align: top;
+    word-break: break-all
+}
+
+/*辅助字段值*/
+
+.c_portalResNews_list-01001 .p_time {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px 0 0;
+    vertical-align: middle;
+    text-align: left;
+    white-space: nowrap;
+    overflow: visible;
+    line-height: 18px;
+    vertical-align: top
+}
+
+/* 互动信息 */
+
+.c_portalResNews_list-01001 .p_assist {
+    margin: 0;
+    width: 236px;
+    height: 317px;
+    padding: 0;
+    overflow: hidden
+}
+
+/*概要列表标题*/
+.c_portalResNews_list-01001 .p_TitleBox {
+    width: auto;
+    height: auto;
+    padding:5px 0;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.c_portalResNews_list-01001 .p_title {
+    display: inline-table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*列表序容器*/
+
+.c_portalResNews_list-01001 .p_header {
+    margin: 5px 0 0;
+    width: auto;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*无效果/分组*/
+
+.c_portalResNews_list-01001 .p_content {
+    margin: 0;
+    width: 236px;
+    height: 317px;
+    padding: 0;
+    overflow: hidden
+}
+/*资讯列表容器*/
+
+.c_portalResNews_list-01001 .p_images {
+    margin: 0;
+    width: 168px;
+    height: 138px;
+    padding: 0;
+    overflow: hidden;    
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 15px
+}
+
+/*行列表容器*/
+
+.c_portalResNews_list-01001 .p_articles {
+    margin: 0;
+    width: inherit;
+    height: 186px;
+    padding: 0;
+}
+
+/*通用容器*/
+
+.c_portalResNews_list-01001 .p_news {
+    margin: 0;
+    width: inherit;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+/*主要内容区容器*/
+
+.c_portalResNews_list-01001 .p_Newslist {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.c_portalResNews_list-01001 {
+    overflow: hidden;
+}
+
+.c_portalResNews_list-01001 .p_content {
+    width: auto;
+    height: auto;
+    vertical-align: top
+}
+
+.c_portalResNews_list-01001 .p_SummaryBox {
+    width: auto;
+    height: auto;
+}
+
+.c_portalResNews_list-01001 .p_assist {
+    width: auto;
+    height: auto;
+}
+
+/*覆盖阶段结束*/
+
+/*改为inline-block*/
+
+.c_portalResNews_list-01001 .p_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px
+}
+
+.c_portalResNews_list-01001 .p_about {
+    display: inline-block;
+    vertical-align: middle
+}
+
+
+/*end*/
+
+/*组件样式开始*/
+
+.c_portalResNews_list-01001 .p_articles {
+    display: inline-block;
+    height: auto;
+    min-width: 320px;
+    width: calc((100% - 0px)/1);
+    padding: 15px 20px;
+    overflow: hidden;
+    float: left;
+}
+
+.c_portalResNews_list-01001 .p_thumbnail {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden
+}
+.c_portalResNews_list-01001 .p_thumbnail img { width:100%;}
+
+.c_portalResNews_list-01001 .higher .p_thumbnail {
+    position: absolute;
+    height: 100%
+}
+
+.c_portalResNews_list-01001 .widther .p_thumbnail {
+    position: absolute;
+    height: 100%
+}
+
+.c_portalResNews_list-01001 .smaller .p_thumbnail {
+    position: absolute;
+    height: 100%
+}
+
+.c_portalResNews_list-01001 .p_assist {
+    margin-top: 2px;
+}
+
+.c_portalResNews_list-01001 .p_SummaryBox {
+    clear: both;
+    margin-bottom: 10px;
+    margin-top: 8px
+}
+
+.c_portalResNews_list-01001 .p_ToDetail {
+    float: right;
+    position: relative
+}
+
+.c_portalResNews_list-01001 .p_summary {
+    white-space: normal
+}
+.c_portalResNews_list-01001 .p_categorySummaryBox{
+    overflow: hidden;
+    padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+	.c_portalResNews_list-01001 .p_articles{
+		margin-top: 10px !important;
+        width: 100% !important;
+	}
+	.c_portalResNews_list-01001 .mp_linkUrl{
+		display: block;
+		height: auto;
+	}
+	.c_portalResNews_list-01001 .p_SummaryBox{
+		display: none;
+	}
+	.c_portalResNews_list-01001 .p_ToDetail{
+		display: none !important;
+	}
+	.c_portalResNews_list-01001 .mP_SummaryBox{
+		clear: both;
+	}
+	.c_portalResNews_list-01001 .p_Information{
+		display: flex;
+		padding: 10px 0;
+	}
+	.c_portalResNews_list-01001 .p_Information li{
+        flex: 1;
+        height: 20px;
+        overflow: hidden;
+	}
+	.c_portalResNews_list-01001 .p_KeyWord{
+		width: 100%;
+		margin-top: 5px;
+	}
+	.c_portalResNews_list-01001 .p_KeyWord .p_tag{
+		padding: 5px 15px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .c_portalResNews_list-01001 .blank{
+        width: 100%;
+        height: 15px;
+        overflow: hidden;
+    }
+    .c_portalResNews_list-01001 .p_articles{border: none}
+}
+@media only screen and (min-width: 769px) {
+	.c_portalResNews_list-01001 .mp_linkUrl{
+		display: none;
+	}
+	.c_portalResNews_list-01001 .mP_SummaryBox{
+		display: none;
+	}
+	.c_portalResNews_list-01001 .p_Information{
+		display: none;
+	}
+	.c_portalResNews_list-01001 .p_KeyWord{
+		display: none;
+    }
+    .c_portalResNews_list-01001 .blank{display: none;}
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+}

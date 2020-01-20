@@ -1,0 +1,28 @@
+.w_fvideo-001{
+	max-width: 480px;
+	min-height: 270px;
+	margin: 0 auto;
+}
+.w_fvideo-001 .w_fvideo{
+	width: 100%;
+	min-height: inherit;
+	position: relative;
+	overflow: hidden;
+	font-size: 0;
+}
+.w_fvideo-001 .w_fvideo:before{
+	content:'';
+	width: 0;
+	min-height: inherit;
+	display: inline-block;
+	vertical-align: middle;
+}
+.w_fvideo-001 .w_fvideo .p_video{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.w_fvideo-001 .w_fvideo .p_video + div{
+	display: none;
+}

@@ -1,0 +1,114 @@
+    {extend name="default:base" /}
+    {block name="content"}
+    <link href="/public/static/theme-default/css/page_impt_News.css" rel="stylesheet" type="text/css" />
+	  <div id="w_grid-1560159424052" class="w_grid-000" data-tmpleditable="editable">
+        <div class="w_grid signal">
+          <div class="e_box e_box-000 p_gridbox">
+            <div id="content_box-1560159424052-0" class="e_box e_box-000 d_gridCell_0 p_gridCell ND_empty" data-editablecontent="1560159424052">
+              <div id="w_grid-1560175942102" class="w_grid-000">
+                <div class="w_grid signal">
+                  <div class="e_box e_box-000 p_gridbox">
+                    <div id="content_box-1560175942102-0" class="e_box e_box-000 d_gridCell_0 p_gridCell"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="w_grid-1563456573903" class="w_grid-000">
+                <div class="w_grid signal">
+                  <div class="e_box e_box-000 p_gridbox">
+                    <div id="content_box-1563456573903-0" class="e_box e_box-000 d_gridCell_0 p_gridCell">
+                      <div id="w_common_text-1563456596361" class="reset_style">
+                        <div>
+                          <p style="text-align:center">
+                            <span style="color:#000000">
+                              <span style="font-size:30px">新闻中心</span></span>
+                          </p>
+                        </div>
+                      </div>
+                      <div id="c_portalResNews_list-15634565738611599" class="c_portalResNews_list-01001">
+                        <div>
+                          <!-- 咨询整体框架开始 -->
+                          <div class="newListBox">
+                            <!-- 咨询整体开始 -->
+                            <div class="p_news container">
+                              <!-- 单个列表开始 -->
+                              <div class="  newList1  ">
+                                <a href="#"  target="_self" class="newLinkBox">
+                                  <div class="centerContentBox">
+                                    <h2 class="newTitle">品牌设计让你的品牌更具价值</h2>
+                                    <article class="newSummry">品牌只有赋予其商业产品才具有品牌价值，而品牌的构成离不开产品、市场、广告、形象、理念等多方面，品牌并不是取个好听的名字，设计一个标志就能称其为品牌，只有当品牌被消费者认可并获取消费信任后，才能称其为品牌。很多企业在塑造和推广品牌过程中，往往只偏重于某一方面，比如有些偏重于产品设计和研发，而有的企业则偏重于市场营销，还有的企业将利润和销售额看成品牌。  　　那么，品牌究竟是什么？在重庆品牌设计公司看</article>
+                                    <div class="readMore">更多阅读
+                                      <i class="iconfont readIcon">&#xe6a7;</i></div>
+                                  </div>
+                                </a>
+                              </div>
+
+                              {volist name="list" id="vo"}
+                              <div class="newList">
+                                <a href="/news/{$vo['id']}.html" target="_self" class="newLinkBox">
+                                  <div class="leftTimeBox">
+                                    <div class="newData">{:substr($vo['create_at'],8,2)}</div>
+                                    <div class="newYearMon">{:substr($vo['create_at'],0,7)}</div></div>
+                                  <div class="centerContentBox">
+                                    <h2 class="newTitle">{$vo['title']}</h2>
+                                    <div class="newToolBox">
+                                      <span class="data1">
+                                        <i class="iconfont icontime">&#xe67a;</i>发布时间 : {:substr($vo['create_at'],0,10)}</span></div>
+                                    <article class="newSummry">{$vo['description']}</article></div>
+                                  <div class="rightIcon">
+                                    <img src="/public/static/theme-default/img/icon5.png" alt="查看详情" class="whiteIcon rIcon">
+                                    <img src="/public/static/theme-default/img/icon6.png" alt="查看详情" class="redIcon rIcon"></div>
+                                </a>
+                              </div>
+                              {/volist}
+
+
+                              <!-- <div class="newList">
+                                <a href="{:url('index/index/news_detail')}" target="_self" class="newLinkBox">
+                                  <div class="leftTimeBox">
+                                    <div class="newData">18</div>
+                                    <div class="newYearMon">2019-07</div></div>
+                                  <div class="centerContentBox">
+                                    <h2 class="newTitle">品牌设计让你的品牌更具价值</h2>
+                                    <div class="newToolBox">
+                                      <span class="data1">
+                                        <i class="iconfont icontime">&#xe67a;</i>发布时间 : 2019-07--18</span></div>
+                                    <article class="newSummry">品牌只有赋予其商业产品才具有品牌价值，而品牌的构成离不开产品、市场、广告、形象、理念等多方面，品牌并不是取个好听的名字，设计一个标志就能称其为品牌，只有当品牌被消费者认可并获取消费信任后，才能称其为品牌。很多企业在塑造和推广品牌过程中，往往只偏重于某一方面，比如有些偏重于产品设计和研发，而有的企业则偏重于市场营销，还有的企业将利润和销售额看成品牌。  　　那么，品牌究竟是什么？在重庆品牌设计公司看</article></div>
+                                  <div class="rightIcon">
+                                    <img src="/public/static/theme-default/img/icon5.png" alt="查看详情" class="whiteIcon rIcon">
+                                    <img src="/public/static/theme-default/img/icon6.png" alt="查看详情" class="redIcon rIcon"></div>
+                                </a>
+                              </div> -->
+
+                              <!-- 单个列表结束 --></div>
+                            <!-- 咨询整体结束 -->
+                            <div class="col-md-6">
+                              <div class="text-right"> {$page} </div>
+                            </div>
+                            <!-- 分页开始 -->
+                            <!-- <div class="e_box e_OccupyBox-001 p_OccupyBox">
+                              <div class="e_pagebox e_pagebox-000 p_page">
+                                <div class="pre">
+                                  <div class="font">
+                                    <i class="iconfont"></i>
+                                    <span class="i_pre">上一页</span></div>
+                                </div>
+                                <div class="pageNum active">1</div>
+                                <div class="next">
+                                  <div class="font">
+                                    <i class="iconfont"></i>
+                                    <span class="i_next">下一页</span></div>
+                                </div>
+                              </div>
+                            </div> -->
+                            <!-- 分页结束 --></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/block}
+	 

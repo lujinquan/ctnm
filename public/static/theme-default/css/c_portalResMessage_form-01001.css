@@ -1,0 +1,829 @@
+
+@media screen and (max-width: 768px) {
+    .c_portalResMessage_form-01001{
+        width: 100%;
+        overflow: hidden;
+    }
+    .c_portalResMessage_form-01001 .p_intentionIntroTitle{
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .c_portalResMessage_form-01001 .p_UnitName{
+        margin-top: 10px;
+    }
+    .c_portalResMessage_form-01001 .p_CoupWBox{
+        padding: 0;
+        width: 80%;
+        margin: 32px auto 32px;
+    }
+    .c_portalResMessage_form-01001 .p_CoupWBox button{
+        width: 100%;
+    }
+    .c_portalResMessage_form-01001 .p_ConWBox{
+        padding: 0;
+    }
+    .c_portalResMessage_form-01001 .form-group{
+        margin: 0;
+        padding: 0 15px;
+    }
+    .c_portalResMessage_form-01001 .p_image {
+        position: absolute;
+        right: 16px;
+        top: 50px;
+        height: 29px;
+    }
+    .c_portalResMessage_form-01001 .p_checkboxA{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .c_portalResMessage_form-01001 .shape{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .c_portalResMessage_form-01001 label.option .font{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .c_portalResMessage_form-01001 .p_sex{
+        display: inline-block;
+    }
+    .c_portalResMessage_form-01001 .p_DepictInfoB p img {
+        max-width: 100% !important;
+    }
+    .c_portalResMessage_form-01001 .p_CaptchasBox{
+        position: relative;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .c_portalResMessage_form-01001 .e_box,
+    .c_portalResMessage_form-01001 .e_icon,
+    .c_portalResMessage_form-01001 .e_title {
+        width: auto;
+        height: auto;
+    }
+
+    .c_portalResMessage_form-01001 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .c_portalResMessage_form-01001 .p_inquiry {
+    }
+
+    .c_portalResMessage_form-01001 .p_ConWBox {
+        padding: 5px 40px 25px;
+    }
+
+    .c_portalResMessage_form-01001 .boxTitle {
+        overflow: hidden;
+    }
+
+    .c_portalResMessage_form-01001 .p_titleBoxA {
+    }
+
+    .c_portalResMessage_form-01001 .boxTitleText {
+        padding: 0 15px;
+        font-size: 16px;
+        float: left;
+        height: 40px;
+        line-height: 40px;
+        padding-bottom: 9px;
+        text-align: center;
+    }
+
+    .c_portalResMessage_form-01001 .boxTitleText .font {
+        display: table-cell;
+        white-space: nowrap;
+        vertical-align: middle;
+    }
+
+    .c_portalResMessage_form-01001 .boxTitleText .iconfont:before {
+        display: inline-block;
+    }
+
+    .c_portalResMessage_form-01001 .p_NameB {
+        display: inline-block;
+        font-size: 14px;
+        width: 110px;
+        text-align: right;
+    }
+
+    .c_portalResMessage_form-01001 .p_NameInfoB {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+
+    }
+
+    /*Ã¦ÂÂÃ¨Â¿Â°*/
+    .c_portalResMessage_form-01001 .p_DepictBoxB {
+        padding: 10px 0 0;
+        line-height: 20px;
+        overflow: hidden;
+    }
+
+    .c_portalResMessage_form-01001 .p_DepicNameB {
+        float: left;
+        font-size: 14px;
+        width: 110px;
+        text-align: right;
+    }
+
+    .c_portalResMessage_form-01001 .p_DepictInfoB {
+        display: flex;
+        font-size: 14px;
+    }
+
+    .c_portalResMessage_form-01001 .p_DepictInfoB .reset_style p {
+        font-size: 14px;
+    }
+
+    .c_portalResMessage_form-01001 .p_groupBox {
+        padding-top: 0;
+    }
+
+    /*Ã§â€¢â„¢Ã¨Â¨â‚¬Ã¥â€ â€¦Ã¥Â®Â¹*/
+    .c_portalResMessage_form-01001 .p_ContactInfo .p_groupBox .p_GuideBox {
+        vertical-align: top;
+    }
+
+    .c_portalResMessage_form-01001 .p_groupBox textarea {
+        display: block;
+        width: inherit;
+        height: inherit;
+        resize: none;
+        height: 92px;
+        padding: 6px;
+        background: none;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .e_text {
+        width: 335px;
+        display: inline-block;
+        position: relative;
+    }
+
+    /**Ã¥Ââ€¢Ã©â‚¬â€°**/
+    .c_portalResMessage_form-01001 .d_CustomValueBox {
+        max-width: 725px;
+        display: inline-block;
+        vertical-align: middle;
+        white-space: normal;
+        width: auto;
+        height: auto;
+    }
+
+    .c_portalResMessage_form-01001 .p_sex {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .c_portalResMessage_form-01001 .p_sex .option {
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        line-height: 100%;
+    }
+
+    .c_portalResMessage_form-01001 .p_sex .shape {
+        display: inline-block;
+        vertical-align: top;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: relative;
+        top: 2px;
+    }
+
+    .c_portalResMessage_form-01001 .p_sex .radio {
+        z-index: 99;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .c_portalResMessage_form-01001 .p_sex input[type="radio"]:checked+.iconfont.first {
+        opacity: 1;
+    }
+
+    .c_portalResMessage_form-01001 .p_sex input[type="radio"]:checked+i:after {
+        content: "";
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+
+    .c_portalResMessage_form-01001 .p_sex input[type="radio"]:checked+.iconfont.first:before {
+        content: "\e669";
+        font-size: 21px;
+        position: absolute;
+        top: -3px;
+        left: -3px;
+    }
+
+    /**Ã¦â€¢Â°Ã¥Â­â€”*/
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .e_unit {
+        display: inline-block;
+    }
+
+    /**Ã¦â€”Â¥Ã¦Å“Å¸**/
+    .c_portalResMessage_form-01001 .p_DateIcon {
+        position: absolute;
+        left: 310px;
+        display: inline-block;
+        width: 20px;
+        top: 50%;
+        font-size: 18px;
+        margin-top: -10px;
+        cursor: pointer;
+    }
+
+    /**Ã¥Â¤ÂÃ©â‚¬â€°Ã¦Â¡â€ **/
+    .c_portalResMessage_form-01001 .p_checkboxContainerBox {
+        width: auto;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxContainerB {
+        width: auto;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxContainerA {
+        display: inline-block;
+        vertical-align: middle;
+        white-space: normal;
+        width: auto;
+        height: auto;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    /* .c_portalResMessage_form-01001 .p_checkboxA .checkbox {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 0;
+        z-index: 99;
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+    } */
+
+    .c_portalResMessage_form-01001 .p_checkboxA .shape {
+        display: inline-block;
+        vertical-align: middle;
+        /* height: 30px;
+        width: 100px;
+        position: relative; */
+    }
+    .c_portalResMessage_form-01001 .p_checkboxA .shape .iconfont{
+        display: none;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA .option {
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA:hover {
+        cursor: pointer;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA label:hover {
+        cursor: pointer;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA .font {
+        width: auto;
+        display: inline-block;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA .first:before {
+        /* content: "\e6ab";
+        position: absolute;
+        bottom: -5px;
+        right: 0px;
+        font-size: 12px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transform: rotate(-45deg); */
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA .first {
+        height: 0;
+        width: 0;
+        border: 10px solid transparent;
+        font-size: 20px;
+        opacity: 0;
+        position: absolute;
+        bottom: -10px;
+        right: -9px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA input[type="checkbox"]:checked+i {
+        opacity: 1;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA input[type="checkbox"]:checked+i:after {
+        content: "";
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        top: 9px;
+        right: -6px;
+        display: block;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA input[type=checkbox]:hover+i {
+        opacity: 1;
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA input[type=checkbox]:hover+i:after {
+        content: "";
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        top: 9px;
+        right: -6px;
+        display: block;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA .option .font {
+        display: inline-block;
+        vertical-align: middle;
+        /* position: absolute;
+        top: -20px;
+        left: 15px;
+        line-height: 40px; */
+    }
+
+    .c_portalResMessage_form-01001 .p_checkboxA.active .shape {
+    }
+
+    /*Ã¨Ââ€Ã§Â³Â»Ã¤Â¿Â¡Ã¦ÂÂ¯*/
+    .c_portalResMessage_form-01001 .p_ContactInfo {
+        padding-top: 0px;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div {
+        margin-top: 15px;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_GuideBox {
+        display: inline-block;
+        width: 110px;
+        height: 30px;
+        line-height: 30px;
+        text-align: right;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+
+    .c_portalResMessage_form-01001 .p_GuideBox .e_icon {
+        display: inline-block;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_GuideBox .e_title {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .e_input,
+    .c_portalResMessage_form-01001 .e_droplist,
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_EntryBox,
+    .c_portalResMessage_form-01001 select.InputText {
+        width: 340px;
+        height: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+    }
+    .c_portalResMessage_form-01001 select.InputText{
+        padding: 2px 10px;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .e_input .InputText {
+        border-radius: 2px;
+        padding-left: 7px;
+        line-height: inherit;
+        height: inherit;
+        width: inherit;
+        display: inline-block;
+        background: none;
+    }
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .e_input .iconfont,
+    .c_portalResMessage_form-01001 .e_droplist .InputIcon {
+        display: block;
+        width: 22px;
+        height: inherit;
+        text-align: center;
+        line-height: inherit;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_EntryBox {
+        width: 165px;
+    }
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_EntryInput {
+        width: 165px;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_image {
+        display: inline-block;
+        position: relative;
+        width: 85px;
+        height: 30px;
+        border-style: none;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_AssistLabelA {
+        position: relative;
+        padding-right: 16px;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_AssistLabelA .iconfont:before {
+        position: absolute;
+        right: 0;
+        top: 3px;
+        content: "";
+        display: block;
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist input {
+        width: calc(100% - 30px);
+        border-radius: 2px 0 0 2px;
+        padding-left: 7px;
+        height: inherit;
+        line-height: inherit;
+        display: inline-block;
+        background: none;
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist .shape {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        top: 0;
+        right: 0;
+        font-size: 12px;
+        border-left: none;
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist .shape {
+        cursor: default;
+    }
+
+    .c_portalResMessage_form-01001 .p_AreaBox .e_droplist .shape:before {
+        content: "\e6c9";
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist.error input {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist.error .shape {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist.hover input {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist.hover .shape {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist.hover input {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist:hover input {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist:hover .shape {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist:hover input {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist.hover .itembox {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist .itembox {
+        width: 100%;
+        max-height: 100px;
+        overflow: auto;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        font-size: 12px;
+        border-top: none;
+        z-index: 99;
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist .itembox li {
+        height: 30px;
+        line-height: 30px;
+        padding-left: 5px;
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist .itembox li span {
+        margin-left: 5px;
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist .itembox li>i {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist .itembox li>i.ItemFirst {
+        margin-left: 5px;
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist:hover .itembox {
+    }
+
+    .c_portalResMessage_form-01001 .e_droplist .itembox li:hover {
+        cursor: pointer;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_selectB {
+        width: auto;
+    }
+
+
+    .c_portalResMessage_form-01001 .p_eqdesc>div .p_LoginPrompt {
+        left: 559px;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .p_LoginPrompt .text-error:after,
+    .c_portalResMessage_form-01001 .p_eqdesc>div .p_LoginPrompt .text-error:after {
+        left: -15px;
+    }
+
+    .c_portalResMessage_form-01001 .p_ContactInfo>div .success .text-error,
+    .c_portalResMessage_form-01001 .p_eqdesc>div.success .text-error {
+        display: none;
+    }
+
+    .c_portalResMessage_form-01001 .p_groupBox>div .success .icon-error,
+    .c_portalResMessage_form-01001 .p_eqdesc>div.success .icon-error {
+        display: inline-block;
+        vertical-align: middle;
+        height: 14px;
+        font-size: 14px;
+        margin: 0 10px;
+        position: static;
+        width: auto;
+        margin-top: 8px;
+    }
+
+    .c_portalResMessage_form-01001 .p_groupBox>div .success .text-error,
+    .c_portalResMessage_form-01001 .p_eqdesc>div.success .text-error {
+        display: none;
+    }
+
+    /*Ã§Â¡Â®Ã¥Â®Å¡Ã¥â€™Å’Ã¥Ââ€“Ã¦Â¶Ë†Ã¦Å’â€°Ã©â€™Â®*/
+    .c_portalResMessage_form-01001 .p_CoupWBox,
+    .c_portalResMessage_form-01001 .p_CoupWBoxA {
+        height: 40px;
+    }
+
+    .c_portalResMessage_form-01001 .p_CoupWBox>div,
+    .c_portalResMessage_form-01001 .p_CoupWBoxA>div {
+        margin-top: 9px;
+        font-size: 14px;
+        padding: 0 16px;
+        cursor: pointer;
+    }
+
+    .c_portalResMessage_form-01001 .p_SaveWBtn,
+    .c_portalResMessage_form-01001 .p_SaveWBtnA {
+        float: left;
+        margin-left: 20px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .c_portalResMessage_form-01001 .p_canelbtn,
+    .c_portalResMessage_form-01001 .p_canelbtnA {
+        float: right;
+        margin-right: 20px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    /*************Ã¦ÂÂÃ¤ÂºÂ¤Ã§Â»â€œÃ¦Å¾Å“Ã¦ÂÂÃ§Â¤Âº*******/
+    .c_portalResMessage_form-01001 .p_succ,
+    .c_portalResMessage_form-01001 .p_fail {
+        width: 300px;
+        height: 113px;
+        font-size: 22px;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 9999999999;
+        display: none;
+        line-height: 102px;
+        text-align: center;
+    }
+
+    .c_portalResMessage_form-01001 .p_succ .iconfont,
+    .c_portalResMessage_form-01001 .p_fail .iconfont {
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+    .c_portalResMessage_form-01001 .p_succ .iconfont:before {
+        content: "\e648";
+    }
+
+    .c_portalResMessage_form-01001 .p_succ .fontbox,
+    .c_portalResMessage_form-01001 .p_fail .fontbox {
+        display: inline-block;
+    }
+
+    .c_portalResMessage_form-01001 .p_fail {
+        width: 360px;
+    }
+
+    .c_portalResMessage_form-01001 .p_fail .iconfont {
+    }
+
+    .c_portalResMessage_form-01001 .p_fail .iconfont:before {
+        content: "\e641";
+    }
+
+    .c_portalResMessage_form-01001 .numTxt::-webkit-outer-spin-button,
+    .c_portalResMessage_form-01001 .numTxt::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        -moz-appearance: textfield;
+    }
+
+    .c_portalResMessage_form-01001 .p_eqdescName .font,
+    .c_portalResMessage_form-01001 .p_nameB .font,
+    .c_portalResMessage_form-01001 .p_NickName .font,
+    .c_portalResMessage_form-01001 .p_nameC .font,
+    .c_portalResMessage_form-01001 .p_nameE .font,
+    .c_portalResMessage_form-01001 .p_nameD .font,
+    .c_portalResMessage_form-01001 .p_nameH .font,
+    .c_portalResMessage_form-01001 .p_nameL .font,
+    .c_portalResMessage_form-01001 .p_nameJ .font,
+    .c_portalResMessage_form-01001 .p_nameM .font,
+    .c_portalResMessage_form-01001 .p_nameG .font,
+    .c_portalResMessage_form-01001 .p_SectorName .font,
+    .c_portalResMessage_form-01001 .p_JobName .font,
+    .c_portalResMessage_form-01001 .p_BusinessName .font,
+    .c_portalResMessage_form-01001 .p_nameA .font,
+    .c_portalResMessage_form-01001 .p_nameI .font,
+    .c_portalResMessage_form-01001 .p_nameF .font,
+    .c_portalResMessage_form-01001 .p_area .font,
+    .c_portalResMessage_form-01001 .p_nameK .font,
+    .c_portalResMessage_form-01001 .p_titleC .font {
+        overflow: hidden;
+        max-width: 6em;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .c_portalResMessage_form-01001 .p_groupBox .p_GuideBox .e_icon.p_desc_star {
+        display: inline-block;
+        font-size: 14px;
+        vertical-align: 1px;
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptDisabled {
+        margin: 15px;
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptNoneData {
+        width: auto;
+        background-color: inherit;
+
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptNoneData .prompt_title .iconfont:before {
+        content: "";
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptNoneData .prompt_title .first {
+        height: auto;
+        display: table-cell;
+        font-size: 32px;
+        position: relative;
+        vertical-align: middle;
+        padding: 0 10px 5px 0;
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptNoneData .prompt_title {
+        display: inline-table;
+        padding: 0 30px;
+        min-height: 100px;
+        height: 100%;
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptNoneData .prompt_title .first:before {
+        content: "\e6b4";
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptNoneData .prompt_title .font {
+        font-size: 18px;
+        display: table-cell;
+        line-height: normal;
+        vertical-align: middle;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptNoneData .promptbox {
+        width: auto;
+        height: 100%;
+    }
+
+    .c_portalResMessage_form-01001 .p_PromptNoneData .prompt_content {
+        font-size: 14px;
+        padding-left: 65px;
+    }
+
+    .c_portalResMessage_form-01001 .p_SectorBox.error .p_selectC {
+    }
+
+    .c_portalResMessage_form-01001 .p_SectorBox.error .e_droplist .shape {
+        height: 28px;
+    }
+
+    .c_portalResMessage_form-01001 .p_LoginPrompt {
+        position: absolute;
+        bottom: -22px;
+        left: 0;
+        white-space: nowrap;
+    }
+
+    .c_portalResMessage_form-01001 .p_intentionIntroTitle{
+        min-width: 120px;
+        text-align: right;
+        display: none;
+    }
+    .c_portalResMessage_form-01001 .form-control{
+        max-width: 470px;
+    }
+
+    .c_portalResMessage_form-01001 .p_CoupWBox {
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .c_portalResMessage_form-01001 .p_selectC{
+        display: inline-block;
+        position: relative;
+    }
+    .c_portalResMessage_form-01001 .p_UnitName{
+        position: absolute;
+        right: -110px;
+        top: 6px;
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){/*Ã¤Â¸Â­Ã¥Â±Â*/
+  
+}

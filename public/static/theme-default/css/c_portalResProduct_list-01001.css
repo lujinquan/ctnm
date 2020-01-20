@@ -1,0 +1,724 @@
+/* 移动设备样式 */
+@media only screen and (max-width:768px){
+  
+    .c_portalResProduct_list-01001 {
+      overflow: hidden;
+      width: 100%;
+      height:auto;
+      min-width: 640px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .c_portalResProduct_list-01001 .p_ProductList{
+      margin:0;
+      width: auto;
+      height:auto;
+      padding:0;
+      overflow: hidden;
+      background-color:transparent;
+      white-space:normal;
+      font-size: 0;
+    }
+  
+    /* 属性分类概述样式 */
+    .c_portalResProduct_list-01001 .p_categorySummaryBox {
+      padding:15px;
+      border-bottom:1px solid rgba(0,0,0,0.09);
+    }
+    .c_portalResProduct_list-01001 .p_categorySummary {
+      color: rgba(0,0,0,0.45);
+      font-size: 14px;
+      line-height: 22px;
+      text-align: left;
+      vertical-align: top;
+      word-break: break-all;
+    }
+  
+    /* 排序样式 */
+    .c_portalResProduct_list-01001 .p_sort{
+      margin:0;
+      width: auto;
+      height:auto;
+      padding:0 15px;
+      overflow: hidden;
+      font-size: 16px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      border-bottom: 10px solid #F5F5F5;
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn{
+      -webkit-flex:1.5; 
+      flex: 1.5; 
+      -webkit-box-flex: 1.5; 
+      -moz-box-flex: 1.5; 
+      -ms-flex: 1.5; 
+      display: block; 
+      position: relative; 
+      width:100%;
+      line-height: 40px;
+      text-align: center;
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn:hover,
+    .c_portalResProduct_list-01001 .d_sortBtn:active{
+      border-color: #1890FF;
+      color: #1890FF;
+      z-index: 2;
+    }
+  
+    .c_portalResProduct_list-01001 .d_sortBtn.active{
+      border-color: #1890FF;
+      color: #1890FF;
+      z-index: 2;
+    }
+    .c_portalResProduct_list-01001 .p_default {
+      -webkit-flex:1; 
+      flex: 1; 
+      -webkit-box-flex: 1; 
+      -moz-box-flex: 1; 
+      -ms-flex: 1; 
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn:lang(active){
+      border-color: #1890FF;
+      color: #1890FF;
+      z-index: 2;
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn .font .iconfont:first-child{
+      display:none;
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn .font .iconfont{
+      display:inline-block;
+      font-size:12px;
+      width:0; 
+      height:0; 
+      margin:5px 0 0 3px;
+      font:0/0 arial; 
+      vertical-align: middle;
+      border:5px dashed transparent; 
+      border-top:5px solid rgba(0,0,0,0.45);
+      text-align:center;
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn .font .iconfont:before{
+      content:"\e69a";
+      line-height: 30px;
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn:lang(active) .font .iconfont,
+    .c_portalResProduct_list-01001 .d_sortBtn:hover .font .iconfont,
+    .c_portalResProduct_list-01001 .d_sortBtn:active .font .iconfont {
+      color: #1890FF;
+      border-top-color: #1890FF;
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn .font .down-arrow{
+      margin-top:0;
+      border-top: 0 none;
+      border-bottom: 5px solid rgba(0,0,0,0.45);
+    }
+    .c_portalResProduct_list-01001 .d_sortBtn .font .arrow:before{
+      content:"\e69c";
+    }
+    .c_portalResProduct_list-01001 .p_default .font .iconfont {
+      display:none;
+    }
+    /* 排序样式end */
+  
+    /* 列表主体样式start */
+    .c_portalResProduct_list-01001 .p_products {
+      width: auto;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      white-space: normal;
+    }
+    .c_portalResProduct_list-01001 .p_Product {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      width: calc((100% - 0px)/1)!important;
+      padding: 15px 15px 0;
+      height: inherit;
+    }
+    .c_portalResProduct_list-01001 .p_ProductInner {
+      width:100%;
+      padding:0 0 15px;
+      border-top: 0 none;
+      border-left: 0 none;
+      border-right: 0 none;
+      box-sizing: content-box;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .c_portalResProduct_list-01001 .p_Product:last-of-type  .p_ProductInner {
+      border:0 none;
+    }
+    /* 图片 */
+    .c_portalResProduct_list-01001 .p_images {
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 0;
+      overflow:hidden;
+      webkit-flex: 1;
+      flex: 1;
+      -webkit-box-flex: 1;
+      -moz-box-flex: 1;
+      -ms-flex: 1;
+    }
+    .c_portalResProduct_list-01001 .p_image {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    .c_portalResProduct_list-01001 .p_imagesPc {display: none;}
+    .c_portalResProduct_list-01001 .p_linkB {
+      width: inherit;
+      height: inherit;
+      display: block;
+        position: static;
+    }
+    .c_portalResProduct_list-01001 .p_image {
+      width: 100%;
+      height: 100%;
+      padding:0;
+    }
+    /* 缩略图移动端隐藏 */
+    .c_portalResProduct_list-01001 .p_ThumbnailBox {
+      display: none;
+    }
+  
+    /*列表文本内容*/
+    .c_portalResProduct_list-01001 .d_articles {
+      height: auto;
+      width: auto;
+      padding: 0 0 0 15px;
+      margin:0;
+      overflow: hidden;
+      -webkit-flex: 2.4;
+      flex: 2.4;
+      -webkit-box-flex: 2.4;
+      -moz-box-flex: 2.4;
+      -ms-flex: 2.4;
+    }
+  
+    /* 标题 */
+    .c_portalResProduct_list-01001 .d_HeadBox{
+      margin:0;
+      width: auto;
+      height:auto;
+      padding:0;
+      border-width:1px;
+      border-style: none;
+      border-color:rgba(228,228,228,0);
+      background-color:transparent;
+      overflow: hidden;
+    }
+    .c_portalResProduct_list-01001 .d_title{
+      display:block;
+      width:auto;
+      height: auto;
+      margin:0;
+      padding:0;
+      font-weight:400;
+      cursor:pointer;
+      line-height: 22px;
+      vertical-align: middle;
+    }
+  
+    .c_portalResProduct_list-01001 .p_TagBox{
+      position: absolute;
+      top:0;
+      right:0;
+      margin:0;
+      width: auto;
+      height:auto;
+      padding:0;
+      border-width:1px;
+      border-style: none;
+      border-color:rgba(228,228,228,0);
+      background-color:transparent;
+      overflow: hidden;
+      display: none;
+    }
+    .c_portalResProduct_list-01001 .p_tag{
+      float: left;
+      margin:0 5px 0 5px;
+      padding:0;
+      border-width:1px;
+      border-style:none;
+      border-color:transparent;
+      overflow: hidden;
+    }
+    .c_portalResProduct_list-01001 .p_tag:hover{
+      border-width:1px;
+      border-style:none;
+      border-color:transparent;
+    }
+    .c_portalResProduct_list-01001 .p_tag:active{
+      border-width:1px;
+      border-style:none;
+      border-color:transparent;
+    }
+  
+    .c_portalResProduct_list-01001 .d_item {
+      width:auto;
+      height: auto;
+      margin:5px 0;
+      padding:0;
+      vertical-align: middle;
+      overflow: hidden;
+    }
+    .c_portalResProduct_list-01001 .d_item .d_itemLable {
+      display: inline-block;
+      vertical-align: middle;
+      margin:0 5px 0 0;
+      font-size:14px;
+    }
+    .c_portalResProduct_list-01001 .d_item .d_itemValue {
+      display: inline-block;
+      vertical-align: middle;
+      font-size:14px;
+    }
+  
+    /* 隐藏移动的标签 */
+    .c_portalResProduct_list-01001 .p_salePricePc,
+    .c_portalResProduct_list-01001 .p_NomBoxPc {
+      display: none;
+    }
+  
+    /* 概要 */
+    .c_portalResProduct_list-01001 .d_SummaryBox{
+      margin:5px 0;
+      width: auto;
+      height:auto;
+      padding:0;
+      overflow: hidden;
+    }
+    .c_portalResProduct_list-01001 .d_summary{
+      color:#999;
+      font-size:12px;
+      line-height:20px;
+      text-align:left;
+      vertical-align:top;
+      word-break:break-all;
+    }
+  
+    /* 零售价 */
+    .c_portalResProduct_list-01001 .d_SalePrice{
+      display:inline-table;
+      margin:0;
+      padding:0;
+      text-align:left;
+      vertical-align: middle;
+    }
+    .c_portalResProduct_list-01001 .p_priceUnit::before {
+      content: "\e6d7";
+    }
+  
+    /* 交互按钮 */
+    .c_portalResProduct_list-01001 .p_interaction{
+      margin: 0;
+      width: auto;
+      height:auto;
+      padding:0;
+      border-width:1px;
+      border-style: none;
+      border-color:rgba(228,228,228,0);
+      background-color:transparent;
+      overflow: hidden;
+      word-break: break-all;
+      white-space: normal;
+      font-size: 14px;
+    }
+    .c_portalResProduct_list-01001 .p_interaction .btn-default {
+      display: inline-block;
+      margin: 5px 0 0;
+    }
+  
+    /* 交互信息 */
+    .c_portalResProduct_list-01001 .p_keyword {
+      display: inline-block;
+      padding-right:5px;
+      white-space: nowrap;
+      overflow: hidden;
+      vertical-align: middle;
+    }
+    /* 列表主体样式end */
+  
+    
+  }
+/* 屏幕宽度在1024px以上pc端样式 */
+@media only screen and (min-width:769px){
+  .c_portalResProduct_list-01001 {
+    overflow: hidden;
+    width: 100%;
+    height:auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .c_portalResProduct_list-01001 .p_ProductList{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    white-space: normal;
+    font-size: 0;
+    padding: 20px 25px;
+  }
+
+  /* 属性分类概述样式 */
+  .c_portalResProduct_list-01001 .p_categorySummaryBox {
+    padding:0 0 20px;
+    margin:0 0 30px;
+    border-bottom:1px solid rgba(0,0,0,0.09);
+  }
+  .c_portalResProduct_list-01001 .p_categorySummary {
+    color: rgba(0,0,0,0.45);
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: top;
+    word-break: break-all;
+  }
+
+  /* 排序样式 */
+  .c_portalResProduct_list-01001 .p_sort{
+    margin:0 0 10px;
+    width: auto;
+    height:auto;
+    padding:0 0 0 1px;
+    border-width:1px;
+    border-style: none;
+    border-color:rgba(228,228,228,0);
+    background-color:transparent;
+    overflow: hidden;
+    clear:both;
+    font-size: 14px;
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn{
+    position:relative;
+    float: left;
+    height:30px;
+    margin:0 0 0 -1px;
+    line-height:30px;
+    text-align:left;
+    padding-left:15px;
+    padding-right: 30px;
+    background-color:rgba(255, 255, 255, 1);
+    border-width:1px;
+    border-style:solid;
+    border-color:#D9D9D9;
+    cursor:pointer;
+    color:rgba(0,0,0,0.65);
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn:hover,
+  .c_portalResProduct_list-01001 .d_sortBtn:active{
+    border-color: #1890FF;
+    color: #1890FF;
+    z-index: 2;
+  }
+
+  .c_portalResProduct_list-01001 .d_sortBtn.active{
+    border-color: #1890FF;
+    color: #1890FF;
+    z-index: 2;
+  }
+  .c_portalResProduct_list-01001 .p_default {
+    padding-right: 15px;
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn:lang(active){
+    border-color: #1890FF;
+    color: #1890FF;
+    z-index: 2;
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn .font .iconfont:first-child{
+    display:none;
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn .font .iconfont{
+    display:inline-block;
+    position:absolute;
+    top:0;
+    right:8px;
+    font-size:12px;
+    color:rgba(0,0,0,0.65);
+    text-align:center;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);   /* IE 9 */
+    -moz-transform:rotate(180deg);  /* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari Ã¥â€™Å’ Chrome */
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn .font .iconfont:before{
+    content:"\e69a";
+    line-height: 30px;
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn:lang(active) .font .iconfont,
+  .c_portalResProduct_list-01001 .d_sortBtn:hover .font .iconfont,
+  .c_portalResProduct_list-01001 .d_sortBtn:active .font .iconfont {
+    color: #1890FF;
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn .font .arrow{
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);   /* IE 9 */
+    -moz-transform:rotate(180deg);  /* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari Ã¥â€™Å’ Chrome */
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn .font .down-arrow{
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg);   /* IE 9 */
+    -moz-transform:rotate(0deg);  /* Firefox */
+    -webkit-transform:rotate(0deg); /* Safari Ã¥â€™Å’ Chrome */
+  }
+  .c_portalResProduct_list-01001 .d_sortBtn .font .arrow:before{
+    content:"\e69a";
+  }
+  .c_portalResProduct_list-01001 .p_default .iconfont.arrow {
+    display: none;
+  }
+  /* 排序样式end */
+
+  /* 列表主体样式start */
+  .c_portalResProduct_list-01001 .p_products {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: normal;
+  }
+  .c_portalResProduct_list-01001 .p_Product {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: calc((100% - 0px)/3);
+    padding: 10px;
+    height: inherit;
+  }
+  .c_portalResProduct_list-01001 .p_ProductInner {
+    width: 100%;
+    padding: 0 0 5px;
+    box-sizing: content-box;
+  }
+  
+  .c_portalResProduct_list-01001 .p_ProductInner:hover {
+    border-width: 3px;
+    border-color: #1890FF;
+    margin: -2px;
+  }
+
+  /* 图片 */
+  .c_portalResProduct_list-01001 .p_images {
+    position: relative;
+    width: 100%;
+    height: 188px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 0;
+    overflow:hidden;
+  }
+  .c_portalResProduct_list-01001 .p_imagesMo {display: none;}
+  .c_portalResProduct_list-01001 .p_linkB {
+    width: inherit;
+    height: inherit;
+    display: block;
+      position: static;
+  }
+  .c_portalResProduct_list-01001 .p_image {
+    width: 100%;
+    height: 100%;
+    padding:0;
+  }
+  /* 缩略图移动端隐藏 */
+  .c_portalResProduct_list-01001 .p_ThumbnailBox {
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    z-index: 10;
+    width:236px; 
+    height: auto;
+    padding:0;
+    overflow: hidden;
+    height: auto;
+  }
+  .c_portalResProduct_list-01001 .p_ThumbnailBox .p_thumbnail {
+    position: relative;
+    width: 42px;
+    height: 34px;
+    float: left;
+    margin: 0 2px;
+    max-width: 42px;
+    max-height: 34px;
+    overflow:hidden;
+    border:2px solid rgba(0,0,0,.45)
+  }
+  .c_portalResProduct_list-01001 .p_ThumbnailBox .p_thumbnail:hover {
+    border-color: rgba(255,255,255,.7)
+  }
+
+  /*列表文本内容*/
+  .c_portalResProduct_list-01001 .d_articles {
+    height: auto;
+    width: auto;
+    padding: 0 0 0 15px;
+    margin:0;
+    overflow: hidden;
+    -webkit-flex: 2.4;
+    flex: 2.4;
+    -webkit-box-flex: 2.4;
+    -moz-box-flex: 2.4;
+    -ms-flex: 2.4;
+  }
+
+  /* 标题 */
+  .c_portalResProduct_list-01001 .d_HeadBox{
+    margin:5px 0 0;
+    width: auto;
+    height:auto;
+    padding:0;
+    border-width:1px;
+    border-style: none;
+    border-color:rgba(228,228,228,0);
+    background-color:transparent;
+    overflow: hidden;
+  }
+  .c_portalResProduct_list-01001 .d_title{
+    display:block;
+    width:auto;
+    height: auto;
+    margin:0;
+    padding:0;
+    font-weight:400;
+    cursor:pointer;
+    line-height: 22px;
+    vertical-align: middle;
+  }
+
+  .c_portalResProduct_list-01001 .p_TagBox{
+    position: absolute;
+    top:0;
+    right:0;
+    margin:0;
+    width: auto;
+    height:auto;
+    padding:0;
+    border-width:1px;
+    border-style: none;
+    border-color:rgba(228,228,228,0);
+    background-color:transparent;
+    overflow: hidden;
+  }
+  .c_portalResProduct_list-01001 .p_tag{
+    float: left;
+    margin:0 5px 0 5px;
+    padding:0;
+    border-width:1px;
+    border-style:none;
+    border-color:transparent;
+    overflow: hidden;
+  }
+  .c_portalResProduct_list-01001 .p_tag:hover{
+    border-width:1px;
+    border-style:none;
+    border-color:transparent;
+  }
+  .c_portalResProduct_list-01001 .p_tag:active{
+    border-width:1px;
+    border-style:none;
+    border-color:transparent;
+  }
+
+  .c_portalResProduct_list-01001 .d_item {
+    width:auto;
+    height: auto;
+    margin:5px 0;
+    padding:0;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+  .c_portalResProduct_list-01001 .d_item .d_itemLable {
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 5px 0 0;
+    font-size:14px;
+  }
+  .c_portalResProduct_list-01001 .d_item .d_itemValue {
+    display: inline-block;
+    vertical-align: middle;
+    font-size:14px;
+  }
+  /* 隐藏移动的标签 */
+  .c_portalResProduct_list-01001 .p_salePriceMo,
+  .c_portalResProduct_list-01001 .p_NomBoxMo {
+    display: none;
+  }
+
+  /* 概要 */
+  .c_portalResProduct_list-01001 .d_SummaryBox{
+    margin:5px 0;
+    width: auto;
+    height:auto;
+    padding:0;
+    overflow: hidden;
+  }
+  .c_portalResProduct_list-01001 .d_summary{
+    line-height:20px;
+    text-align:left;
+    vertical-align:top;
+    word-break:break-all;
+  }
+
+  /* 零售价 */
+  .c_portalResProduct_list-01001 .d_SalePrice{
+    display:inline-table;
+    margin:0;
+    padding:0;
+    text-align:left;
+    vertical-align: middle;
+  }
+  .c_portalResProduct_list-01001 .p_priceUnit::before {
+    content: "\e6d7";
+  }
+
+  /* 交互按钮 */
+  .c_portalResProduct_list-01001 .p_interaction{
+    margin: 0;
+    width: auto;
+    height:auto;
+    padding:0;
+    border-width:1px;
+    border-style: none;
+    border-color:rgba(228,228,228,0);
+    background-color:transparent;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: normal;
+    font-size: 14px;
+  }
+
+  .c_portalResProduct_list-01001 .p_interaction .btn-default {
+    display: inline-block;
+    margin:5px 0 0 ;
+  }
+
+  /* 交互信息 */
+  .c_portalResProduct_list-01001 .p_keyword {
+    display: inline-block;
+    padding-right:5px;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  /* 列表主体样式end */
+
+}
+
+/* 屏幕宽度介于768px-1024px样式 */
+@media only screen and (min-width:769px) and (max-width: 1024px){}

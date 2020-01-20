@@ -1,0 +1,88 @@
+/*Ã¦ÂµÂÃ¥Â¼ÂÃ¦Å’â€°Ã©â€™Â®-001*/
+.w_fbtn-001{
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width:150px;
+    min-height:36px;
+    max-height:0;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 0;
+}
+.w_fbtn-001 .p_CommonBtn{
+	width: 100%;
+	height: inherit;
+	padding:0;  transition: .5s;
+}
+.w_fbtn-001 .p_CommonBtn .font{
+   text-align: center;
+   display: inline-block;
+   vertical-align: middle;
+   width: 100%;
+   font-size: 14px;
+   height: auto;
+   transition: .5s;
+}
+.w_fbtn-001 .animated{
+	width:100%;
+	border-radius: 10px;
+	height:100%;
+	min-height: inherit;
+}
+.w_fbtn-001 .p_link{
+	min-height: inherit;
+	display: block;
+	border-radius: 10px;
+}
+.w_fbtn-001 .p_CommonBtn{
+	border-style: solid;
+}
+.w_fbtn-001 .p_CommonBtn{
+    width: 100%;
+    height:36px;
+    color: #333;
+    border-width: 1px;
+    border-style: none;
+    border-color:transparent;
+    padding-top:0;
+    border-radius: 45px;
+    padding-right:20px;
+    padding-left:20px;
+    text-align: left;
+    border: 1px solid  #ccc;
+    min-height: inherit;
+}
+
+.w_fbtn-001 .p_CommonBtn:hvoer{
+    width: 100%;
+    height:36px;
+    color: #fff;
+    border-width: 1px;
+    border-style: none;
+    border-color:transparent;
+    padding-top:0;
+    padding-right:20px;
+    padding-left:20px;
+    background:#06c;
+    text-align: left;
+    border: 1px solid  #06c;
+    min-height: inherit;
+}
+
+.w_fbtn-001 .p_CommonBtn:before{
+	content: '';
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.p_CommonBtn:hover{
+  background-color:rgba(0, 102, 204, 1);
+  border-color:rgba(0, 0, 0, 0);
+  transition: .5s;
+}
+.p_CommonBtn:hover .font{
+  transition: .5s;
+  color: rgb(0, 93, 208);
+}
