@@ -24,7 +24,12 @@ class Admin extends Common
     {
         // 检测登录
         if (!Auth::checkLogin()) {
-            $this->redirect('admin/passport/login');
+            // 设置登录key
+            $key = input('key','');
+            if($key != 'login'){
+                $this->redirect('/');
+            }
+            $this->redirect('admin/passport/login?key=login');
         } else {
             // 检测权限
             if (!Auth::check(get_path_url())) {

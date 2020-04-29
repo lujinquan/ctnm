@@ -16,7 +16,7 @@ class Passport extends Common
     public function logout()
     {
         Auth::logout();
-        $this->redirect('admin/passport/login');
+        $this->redirect('admin/passport/login?key=login');
     }
 
     public function login()
@@ -66,6 +66,11 @@ class Passport extends Common
             }
         }
 
+        //设置登录key
+        $key = input('key','');
+        if($key != 'login'){
+            $this->redirect('/');
+        }
         return $this->fetch('login', ['lang' => Cookie::get('think_var')]);
     }
 }

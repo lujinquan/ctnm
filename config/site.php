@@ -115,7 +115,7 @@ return [
         'upload_image_size'  => '2040000',
         'upload_video_ext'   => 'rm,rmvb,wmv,3gp,mp4,mov,avi,flv',
         'upload_video_size'  => '2040000',
-        'upload_attach_ext'  => 'doc,xls,rar,zip',
+        'upload_attach_ext'  => 'doc,docx,pdf,xls,rar,zip,7z,jpg,png,jpeg,gif,mp3,mp4,txt',
         'upload_attach_size' => '2040000',
         'upload_path'        => 'upload',
 
