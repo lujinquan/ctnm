@@ -284,11 +284,19 @@ clear:left;
 }
 /*w_grid-1560175942102*/@media only screen and (max-width: 1024px) and (min-width: 769px){
 }
+/*
+20200509修改
+*/
+/*#w_grid-1560175942102 .p_gridbox{*/
+/*background-repeat:no-repeat;*/
+/*background-position:top center;*/
+/*background-attachment:fixed;*/
+/*}*/
 #w_grid-1560175942102 .p_gridbox{
-background-repeat:no-repeat;
-background-position:top center;
-background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center;
 }
+
 #w_grid-1563456573903 > div > .p_gridbox > .p_gridCell:nth-child(n+1){
 margin-left:0;
 clear:left;

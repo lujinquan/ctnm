@@ -106,8 +106,8 @@ class DocumentContent extends Model
         if (!empty($request['limit'])) {
             $limit = $request['limit'];
         }
-
-        return $this->where($query)->field($field)->order($order)->paginate($limit, true, [
+        // 20200509去掉简洁分页
+        return $this->where($query)->field($field)->order($order)->paginate($limit, false, [
             'type'     => 'bootstrap',
             'var_page' => 'page',
             'query'    => $params,
